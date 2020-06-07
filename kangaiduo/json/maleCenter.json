@@ -1,0 +1,457 @@
+{
+    "slider":[
+        {
+            "color":"#124b9c",
+            "img":"http://image.360kad.com/group2/M00/BB/7C/CgAgFF05CjKAda3wAAHwyLCNcLM867.jpg"
+        },
+         {
+            "color":"#132030",
+            "img":"http://image.360kad.com/group2/M00/BA/BE/CgAgFV0u6rWASunwAAMPlxy6C3M891.jpg"
+        },
+    
+        {
+            "color":"#3e2708",
+            "img":"http://image.360kad.com/group2/M00/B3/02/CgAgFVzma6qASLuYAALrPfNphk4974.jpg"
+        },
+        {
+            "color":"#060f18",
+            "img":"http://image.360kad.com/group2/M00/5C/61/CgAgFFrxgUSAMXIlAAGka4RZLew363.jpg"
+        },
+        {
+            "color":"#badae5",
+            "img":"http://image.360kad.com/group2/M00/6F/49/CgAgFVsUk2CAEFmtAAIemY7iGMI269.jpg"
+        },
+        {
+            "color":"#acb0bc",
+            "img":"http://image.360kad.com/group2/M00/2A/C7/CgAgFFpMdZqAB0M2AAI_D1eIIr4169.jpg"
+        },
+        {
+            "color":"#f3f3f3",
+            "img":"http://image.360kad.com/group2/M00/86/DE/CgAgFFthKgaAUH53AAGApLSjibE641.jpg"
+        }
+    ],
+    "tab":{
+        "tabTitle": [
+            "阳痿早泄",
+            "少精无精",
+            "前列腺炎"
+        ],
+        "tabCon": [
+            [
+                "http://image.360kad.com/group2/M00/13/71/CgAgFVn4mLKAYLbEAAA-RAopJ9I052.jpg",
+                "http://image.360kad.com/group2/M00/B3/08/CgAgFVznWF-APFThAABP5hDOgOY524.jpg",
+                "http://image.360kad.com/group2/M00/13/71/CgAgFFn4mTWATNk7AABHc_R2TfQ099.jpg",
+                "http://image.360kad.com/group2/M00/52/55/CgAgFVrehf6AeWxDAAA99-rK5ZU277.jpg"
+            ],
+            [
+                "http://image.360kad.com/group2/M00/13/72/CgAgFFn4mc6AA0o8AABL5ZVIAYA495.jpg",
+                "http://image.360kad.com/group2/M00/13/72/CgAgFFn4me2AFPXVAAA9yGtgQ2E891.jpg",
+                "http://image.360kad.com/group2/M00/13/72/CgAgFVn4mhmAajipAAA5g0XAmNQ835.jpg",
+                "http://image.360kad.com/group2/M00/13/72/CgAgFFn4mj6AMv6cAABN6M81H4Y939.jpg"
+            ],
+            [
+                "https://image.360kad.com/group2/M00/E5/5A/CgAgFF33INyATc0wAACJfLfVnPE210.jpg",
+                "https://image.360kad.com/group2/M00/E5/5A/CgAgFF33IL2Abhl6AABXVP5dQ5U244.jpg",
+                "http://image.360kad.com/group2/M00/13/72/CgAgFVn4m8yAA0yEAAA4buS4TGk970.jpg",
+                "http://image.360kad.com/group2/M00/13/72/CgAgFFn4mnmAHCYWAAA6PxL1Uzk175.jpg"
+            ]
+        ]
+    },
+    "floor":[
+    {
+        "floor_ad":"http://image.360kad.com/group2/M00/B3/08/CgAgFFznWLSAHfzVAAFj2gQMU9c879.jpg",
+        "title": "阳痿早泄",
+        "headList": [
+            "早泄 | ",
+            "阳痿 | ",
+            "延时"
+        ],
+        "img": "http://image.360kad.com/group2/M00/13/AC/CgAgFFn5jFaAEk23AAEgqUfTkTQ708.jpg",
+        "leftList": [
+            "金戈",
+            "必利劲",
+            "益肾壮阳膏"
+        ],
+        "con": [
+            {
+                "src": "http://image.360kad.com/group2/M00/01/0E/CgAgFFmwoeOABc9SAAEUxtsins0080.jpg_180x180.jpg",
+                "name": "必利劲 盐酸达泊西汀片 30mg*3片",
+                "salesPrice": "￥280",
+                "originalPrice": "￥380"
+            },
+            {
+                "src": "http://image.360kad.com/group2/M00/13/90/CgAgFVn5SN6AFs9JAAHD0XicbD4419.jpg_180x180.jpg",
+                "name": "金戈 枸橼酸西地那非片 50mg*5片/盒",
+                "salesPrice": "￥198",
+                "originalPrice": "￥245"
+            },
+            {
+                "src": "http://image.360kad.com/group2/M00/98/3C/CgAgFFuq9rmAbr2EAAGoKu7sVTw989.jpg_180x180.jpg",
+                "name": "万艾可 枸橼酸西地那非片 50mg*10片",
+                "salesPrice": "￥520",
+                "originalPrice": "￥550"
+            },
+            {
+                "src": "http://image.360kad.com/group2/M00/A0/83/CgAgFFwXS_-ARN4NAAGwrOBN28k659.jpg_180x180.jpg",
+                "name": "昆仑山 罗补甫克比日丸 0.3g*40丸*2板",
+                "salesPrice": "￥138",
+                "originalPrice": "￥78"
+            },
+            {
+                "src": "http://image.360kad.com/group2/M00/95/E9/CgAgFFuWM52AZTDJAAGBCUbikMU764.jpg_180x180.jpg",
+                "name": "施强 复方玄驹胶囊 0.42g*54粒",
+                "salesPrice": "￥145",
+                "originalPrice": "￥173"
+            },
+            {
+                "src": "http://image.360kad.com/group2/M00/84/F8/CgAgFFtabZSAJw4xAAGaSEj3b7w145.jpg_180x180.jpg",
+                "name": "昆仑山 伊木萨克片 0.5g*6片",
+                "salesPrice": "￥158",
+                "originalPrice": "￥188"
+            },
+            {
+                "src": "http://image.360kad.com/group2/M00/B2/37/CgAgFFzaIYuAHmgSAAHav_js138486.jpg_180x180.jpg",
+                "name": "希爱力 他达拉非片 5mg*28片",
+                "salesPrice": "￥907",
+                "originalPrice": "￥935"
+            },
+            {
+                "src": "http://image.360kad.com/group2/M00/C5/54/CgAgFV1kzcGAOwKjAAFRCp_pEts738.jpg_180x180.jpg",
+                "name": "益佰 疏肝益阳胶囊 0.25g*36粒",
+                "salesPrice": "￥53",
+                "originalPrice": "￥92"
+            }
+        ]
+    },
+    {
+        "floor_ad":"http://image.360kad.com/group2/M00/13/B0/CgAgFVn5lqCAVC3eAADKYNv1LAs513.jpg",
+        "title": "补肾养生",
+        "headList": [
+            "肾阴虚 | ",
+            "肾阳虚 | ",
+            "补肾"
+        ],
+        "img": "http://image.360kad.com/group2/M00/19/52/CgAgFFoLyYiAPDkZAADNt1XTCRM508.jpg",
+        "leftList": [
+            "龟鹿补肾片",
+            "肾宝片",
+            "龟龄集酒",
+            "龟龄集"
+        ],
+        "con": [
+            {
+                "src": "http://image.360kad.com/group2/M00/8E/51/CgAgFFt-KjyAP7EbAAFa1-VxzZM565.jpg_180x180.jpg",
+                "name": "汇仁 肾宝片 0.7g*126片",
+                "salesPrice": "￥322",
+                "originalPrice": "￥426"
+            },
+            {
+                "src": "http://image.360kad.com/group1/M00/27/83/CgAgEVcNt0eAGRJyAAHBVqq9IXM452.jpg_180x180.jpg",
+                "name": "同仁堂 六味地黄丸(水蜜丸) 360粒(20g/100粒)",
+                "salesPrice": "￥15.80",
+                "originalPrice": "￥22"
+            },
+            {
+                "src": "http://image.360kad.com/group1/M00/22/7A/CgAgEVbrsWyAX7BIAAHjnSpb4C4466.jpg_180x180.jpg",
+                "name": "九芝堂 金锁固精丸(浓缩丸) 0.2g*200丸",
+                "salesPrice": "￥18",
+                "originalPrice": "￥15"
+            },
+            {
+                "src": "http://image.360kad.com/group1/M00/1D/5E/CgAgEFahAJ2AcGBgAAAgAKXwVgw07.jpeg",
+                "name": "回元堂 固本回元口服液 20ml*24瓶",
+                "salesPrice": "￥399",
+                "originalPrice": "￥438"
+            },
+            {
+                "src": "http://image.360kad.com/group2/M00/9B/76/CgAgFVvap2yAbYFYAAHZGVaJMoE021.jpg_180x180.jpg",
+                "name": "广誉远 龟龄集 0.3g*30粒",
+                "salesPrice": "￥598",
+                "originalPrice": "￥555"
+            },
+            {
+                "src": "http://image.360kad.com/group2/M00/9B/91/CgAgFVvb79SAQVPMAAE1CiSH2LU851.jpg_180x180.jpg",
+                "name": "雷允上 健延龄胶囊 0.3g*10粒*4板",
+                "salesPrice": "￥198",
+                "originalPrice": "￥298"
+            },
+            {
+                "src": "http://image.360kad.com/group2/M00/B2/F4/CgAgFFzl-7yAdySIAAGmUkqG1_I077.jpg_180x180.jpg",
+                "name": "星辰牌 龟鹿补肾片 0.43g*120片",
+                "salesPrice": "￥198",
+                "originalPrice": "￥550"
+            },
+            {
+                "src": "http://image.360kad.com/group1/M00/1D/5E/CgAgEFag_5qAEXpaAAAgAN-OT2U91.jpeg",
+                "name": "京果 海狗丸 0.2g*120粒",
+                "salesPrice": "￥64.80",
+                "originalPrice": "￥98"
+            }
+        ]
+    },
+    {
+        "floor_ad":"http://image.360kad.com/group2/M00/5C/62/CgAgFFrxggOAZeqMAACduzkQ-RI001.jpg",
+        "title": "前列腺疾病",
+        "headList": [
+            "前列腺炎 | ",
+            "前列腺增生 | ",
+            "前列腺癌"
+        ],
+        "img": "http://image.360kad.com/group2/M00/13/AD/CgAgFVn5jT-ANM7ZAAEb-yAWg-4616.jpg",
+        "leftList": [
+            "前列舒通胶囊",
+            "前列回春胶囊",
+            "前列腺贴",
+            "保列治"
+        ],
+        "con": [
+            {
+                "src": "http://image.360kad.com/group1/M00/80/27/CgAgEVhzJxKALrP9AAHZcmXNsfo048.jpg_180x180.jpg",
+                "name": "色嗵乐 龙金通淋胶囊 0.46g*12粒*2板",
+                "salesPrice": "￥58",
+                "originalPrice": "￥76"
+            },
+            {
+                "src": "http://image.360kad.com/group1/M00/27/EA/CgAgEFcQWKSAU-N9AAGoUe4dDic514.jpg_180x180.jpg",
+                "name": "丽珠医药 前列安栓 2g*5粒",
+                "salesPrice": "￥55",
+                "originalPrice": "￥68"
+            },
+            {
+                "src": "http://image.360kad.com/group2/M00/45/37/CgAgFVq0peGAZ1fhAAG_UHrroVY325.jpg_180x180.jpg",
+                "name": "太和 前列倍喜胶囊 0.4g*54粒",
+                "salesPrice": "￥47",
+                "originalPrice": "￥80"
+            },
+            {
+                "src": "http://image.360kad.com/group1/M00/1D/97/CgAgEValoEuAKhpHAAAgAORakaw99.jpeg",
+                "name": "哈乐 盐酸坦索罗辛缓释胶囊 0.2mg*10粒",
+                "salesPrice": "￥57.50",
+                "originalPrice": "￥87"
+            },
+            {
+                "src": "http://image.360kad.com/group2/M00/BE/92/CgAgFV1Kbx2APxRjAAD_S5rjxoU029.jpg_180x180.jpg",
+                "name": "步长 前列舒通胶囊 0.4g*18粒*2板",
+                "salesPrice": "￥51.50",
+                "originalPrice": "￥62"
+            },
+            {
+                "src": "http://image.360kad.com/group2/M00/01/81/CgAgFFmyRRGAVSQrAAGyHiPeIag852.jpg_180x180.jpg",
+                "name": "安福达 度他雄胺软胶囊 0.5mg*10粒",
+                "salesPrice": "￥79",
+                "originalPrice": "￥92"
+            },
+            {
+                "src": "http://image.360kad.com/group1/M00/7E/32/CgAgEFhrTb2ARXHAAAHW34TeMQc419.jpg_180x180.jpg",
+                "name": "汤臣倍健 番茄红素维生素E软胶囊 30g(500mg*60粒)",
+                "salesPrice": "￥201",
+                "originalPrice": "￥278"
+            },
+            {
+                "src": "http://image.360kad.com/group2/M00/B3/34/CgAgFVzrUyKAZ3vzAAIN5_p2x5M007.jpg_180x180.jpg",
+                "name": "人初夫保 纳米银前列腺抑菌片 2g*5片",
+                "salesPrice": "￥36",
+                "originalPrice": "￥55"
+            }
+        ]
+    },
+    {
+        "floor_ad":"http://image.360kad.com/group2/M00/B3/6D/CgAgFFzvhi2ADzVyAADGlGLh0sY975.jpg",
+        "title": "少精弱精",
+        "headList": [
+            "少精 | ",
+            "弱精 | ",
+            "死精"
+        ],
+        "img": "http://image.360kad.com/group2/M00/13/AD/CgAgFFn5jWmAaLjbAAEDGoyYWT8007.jpg",
+        "leftList": [
+            "麒麟丸",
+            "黄精赞育胶囊",
+            "五子衍宗丸",
+            "生精片"
+        ],
+        "con": [
+            {
+                "src": "http://image.360kad.com/group2/M00/3C/06/CgAgFVqXVqGAClk_AAHV6SBwrqY707.jpg_180x180.jpg",
+                "name": "麒麟牌 麒麟丸(浓缩丸) 30g*6瓶",
+                "salesPrice": "￥698",
+                "originalPrice": "￥689"
+            },
+            {
+                "src": "http://image.360kad.com/group1/M00/27/EA/CgAgEFcQVyCAFaN1AAFfA1ho58w582.jpg_180x180.jpg",
+                "name": "东维力 左卡尼汀口服溶液 (10ml:1g)*6支",
+                "salesPrice": "￥72",
+                "originalPrice": "￥80"
+            },
+            {
+                "src": "https://image.360kad.com/group2/M00/E9/1D/CgAgFF4WveOASj66AAK35SkNbUQ866.jpg_180x180.jpg",
+                "name": "千禾 生精片 0.5g*12片*2板",
+                "salesPrice": "￥66",
+                "originalPrice": "￥68"
+            },
+            {
+                "src": "http://image.360kad.com/group1/M00/B8/77/CgAgEFmIJOiAaJyEAAMXWIE3_kI732.jpg_180x180.jpg",
+                "name": "护君 黄精赞育胶囊 0.31g*48粒",
+                "salesPrice": "￥238",
+                "originalPrice": "￥228"
+            },
+            {
+                "src": "http://image.360kad.com/group2/M00/3F/5F/CgAgFFqh8q-AFhKWAAG9-q8h3y0292.jpg_180x180.jpg",
+                "name": "廖元和堂 生精胶囊 0.4g*24粒",
+                "salesPrice": "￥75",
+                "originalPrice": "￥87"
+            },
+            {
+                "src": "http://image.360kad.com/group1/M00/4E/85/CgAgEFfeSzyAXR0WAAHh6GnZ7Ug748.jpg_180x180.jpg",
+                "name": "千子乐 龙鹿胶囊 0.2g*15粒*2板",
+                "salesPrice": "￥95",
+                "originalPrice": "￥140"
+            },
+            {
+                "src": "http://image.360kad.com/group2/M00/04/B4/CgAgFFm_MJ6ARzBcAAHjKoFIFG4059.jpg_180x180.jpg",
+                "name": "同仁堂 五子衍宗丸 60g",
+                "salesPrice": "￥38",
+                "originalPrice": "￥45"
+            },
+            {
+                "src": "http://image.360kad.com/group2/M00/9A/B9/CgAgFVvP2DqAB1jTAAFbQMTmQyM829.jpg_180x180.jpg",
+                "name": "关中 杞蓉胶囊 0.35g*12粒*3板",
+                "salesPrice": "￥108",
+                "originalPrice": "￥68"
+            }
+        ]
+    },
+    {
+        "floor_ad":"http://image.360kad.com/group2/M00/35/71/CgAgFVpxetyAP0cdAAHaEPyzvuE651.jpg",
+        "title": "脱发白发",
+        "headList": [
+            "雄性激素脱发 | ",
+            "斑秃 | ",
+            "白发"
+        ],
+        "img": "http://image.360kad.com/group2/M00/13/71/CgAgFFn4l5eABafgAABtFCNnDEg443.jpg",
+        "leftList": [
+            "非那雄胺片",
+            "米诺地尔",
+            "除脂生发片",
+            "养血生发胶囊"
+        ],
+        "con": [
+            {
+                "src": "http://image.360kad.com/group2/M00/B1/C2/CgAgFFzSqaaAF-voAAEzGfqQqpA413.jpg_180x180.jpg",
+                "name": "启悦 非那雄胺片 1mg*7片*4板",
+                "salesPrice": "￥84",
+                "originalPrice": "￥101"
+            },
+            {
+                "src": "http://image.360kad.com/group1/M00/B4/6D/CgAgEVl1VySAUx93AAG0EYOB75Y018.jpg_180x180.jpg",
+                "name": "仙琚 非那雄胺片 1mg*5片*6板",
+                "salesPrice": "￥92",
+                "originalPrice": "￥118"
+            },
+            {
+                "src": "http://image.360kad.com/group1/M00/65/EE/CgAgEFgAWIGAXHXWAAGjnGBQQN8311.jpg_180x180.jpg",
+                "name": "天赐堂 除脂生发片 0.3g*24片*3小盒",
+                "salesPrice": "￥22",
+                "originalPrice": "￥35"
+            },
+            {
+                "src": "http://image.360kad.com/group1/M00/38/DD/CgAgEVdrsWyACMCNAAHfCfW6ceg462.jpg_180x180.jpg",
+                "name": "中一 固肾生发丸 30g",
+                "salesPrice": "￥48",
+                "originalPrice": "￥85"
+            },
+            {
+                "src": "http://image.360kad.com/group2/M00/93/14/CgAgFFuM_ayAcokXAAFaH0eJplA884.jpg_180x180.jpg",
+                "name": "蔓迪 米诺地尔酊 5%(60ml:3g)",
+                "salesPrice": "￥139",
+                "originalPrice": "￥195"
+            },
+            {
+                "src": "http://image.360kad.com/group2/M00/AA/DD/CgAgFVySIfCANhZGAAHg7FUCFNA220.jpg_180x180.jpg",
+                "name": "达霏欣 米诺地尔搽剂 60ml:3g",
+                "salesPrice": "￥198",
+                "originalPrice": "￥210"
+            },
+            {
+                "src": "http://image.360kad.com/group2/M00/C5/54/CgAgFV1k0FGAHyuRAAFzvjrLNi4879.jpg_180x180.jpg",
+                "name": "同仁堂 七宝美髯丸 6g*10袋",
+                "salesPrice": "￥24.90",
+                "originalPrice": "￥30"
+            },
+            {
+                "src": "http://image.360kad.com/group1/M00/38/9D/CgAgEFdqS7mAFXckAAGsd3hyejI426.jpg_180x180.jpg",
+                "name": "特伶 生发片 0.35g*12片*3板",
+                "salesPrice": "￥19.90",
+                "originalPrice": "￥24"
+            }
+        ]
+    },
+    {
+        "floor_ad":"http://image.360kad.com/group2/M00/13/B1/CgAgFFn5l7CAEmM1AADA46jozvA185.jpg",
+        "title": "情趣用品",
+        "headList": [
+            "避孕套 | ",
+            "飞机杯 | ",
+            "振动棒"
+        ],
+        "img": "http://image.360kad.com/group2/M00/13/71/CgAgFVn4l7eAW2uvAABhmnJGnRw174.jpg",
+        "leftList": [
+            "大胆爱避孕套",
+            "倍耐力",
+            "人体润滑液",
+            "飞机杯"
+        ],
+        "con": [
+            {
+                "src": "http://image.360kad.com/group2/M00/08/CF/CgAgFFnPNk-AJnpvAAHV95TMRMw093.jpg_180x180.jpg",
+                "name": "杜蕾斯 许愿神盒薄透七合一避孕套 (超薄尊享三合一18+LOVE10+亲昵4+Air1+持久1) 34只",
+                "salesPrice": "￥148",
+                "originalPrice": "￥198"
+            },
+            {
+                "src": "http://image.360kad.com/group1/M00/6E/10/CgAgEVgkEquAKcFJAAGlyIP1O3E168.jpg_180x180.jpg",
+                "name": "人初油 抑菌喷雾剂 15ml/支",
+                "salesPrice": "￥49",
+                "originalPrice": "￥68"
+            },
+            {
+                "src": "http://image.360kad.com/group2/M00/CE/D4/CgAgFF2ddtKAHu79AAGXpU8-gXo897.jpg_180x180.jpg",
+                "name": "倍爱力 男用喷剂 15ml",
+                "salesPrice": "￥28.80",
+                "originalPrice": "￥39"
+            },
+            {
+                "src": "http://image.360kad.com/group2/M00/BB/03/CgAgFF0xLnyAS2XRAAJqujSBKPw400.jpg_180x180.jpg",
+                "name": "杜蕾斯 焕觉多速震动棒 03 DLS-W-B-A-2 紫色 1只",
+                "salesPrice": "￥109",
+                "originalPrice": "￥130"
+            },
+            {
+                "src": "http://image.360kad.com/group2/M00/14/0A/CgAgFFn63CiATRWdAAG72zl9YLA976.jpg_180x180.jpg",
+                "name": "杜蕾斯 持久装避孕套 12只",
+                "salesPrice": "￥119.80",
+                "originalPrice": "￥199"
+            },
+            {
+                "src": "http://image.360kad.com/group2/M00/03/1B/CgAgFVm4pDKABEFVAAFYBiNu3xk703.jpg_180x180.jpg",
+                "name": "杜蕾斯 人体润滑液 (爽滑快感) 50ml",
+                "salesPrice": "￥48.80",
+                "originalPrice": "￥86"
+            },
+            {
+                "src": "http://image.360kad.com/group1/M00/8D/1D/CgAgEVi2NpyAac_zAAHVS2Pjpp8060.jpg_180x180.jpg",
+                "name": "Wanle万乐 灵儿杯 电动飞机杯 (双震发音) 土豪金 1个/盒",
+                "salesPrice": "￥98",
+                "originalPrice": "￥79"
+            },
+            {
+                "src": "http://image.360kad.com/group2/M00/99/8B/CgAgFFu-7s-AezyhAAKpQbZOcWQ148.jpg_180x180.jpg",
+                "name": "杜蕾斯 超薄隐feel避孕套 12只/盒",
+                "salesPrice": "￥108",
+                "originalPrice": "￥115"
+            }
+        ]
+    }
+]
+}

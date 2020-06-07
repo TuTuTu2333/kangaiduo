@@ -1,0 +1,496 @@
+.top_img {
+    width: 1200px;
+    height: 50px;
+    overflow: hidden;
+    margin: auto;
+}
+
+#main {
+    width: 1200px;
+    margin: auto;
+}
+
+.main_top {
+    margin-top: 10px;
+}
+
+.main_top img {
+    width: 100%;
+}
+
+.w-page-tip {
+    color: #888888;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.wrap-detail-prepro {
+    width: 1200px;
+    height: 565px;
+    position: relative;
+    border: 1px solid #dddddd;
+    margin-bottom: 20px;
+}
+
+.w-dtl-prel {
+    float: left;
+    width: 383px;
+}
+
+.w-dtl-magnifier {
+    position: relative;
+}
+
+.w-dtl-mag-lar {
+    width: 383px;
+    height: 365px;
+    position: relative;
+    overflow: hidden;
+}
+
+.w-dtl-mag-lar .min_img {
+    width: 80%;
+    margin-left: 8%;
+    margin-top: 6%;
+}
+.min_img img{
+    width: 100%;
+}
+
+.min_box{
+    width: 150px;
+    height: 150px;
+    background: rgba(6, 6, 6, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.max_box{
+    width: 383px;
+    height: 365px;
+    position: absolute;
+    top: 0;
+    left: 383px;
+    z-index: 99;
+    overflow: hidden;
+    display: none;
+    background: #fff;
+    border: 1px solid #eee;
+}
+.current{
+    display: block;
+}
+.max_img{
+    width: 977px;
+    height: 887px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.max_img img{
+    width: 80%;
+    margin-left: 8%;
+    margin-top: 6%;
+}
+.minPicScroll {
+    position: relative;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.imgBox {
+    margin-left: 20px;
+    overflow: hidden;
+    width: 58px;
+    height: 58px;
+    float: left;
+    border: 1px solid #f00;
+    overflow: hidden;
+}
+
+.imgBox img{
+    width: 100%;
+}
+
+.w-dtl-snext {
+    margin-top: 85px;
+    margin-left: 13px;
+    margin-right: 13px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #b5b5b5;
+    height: 26px;
+}
+
+.shop {
+    margin-top: 5px;
+    width: 150px;
+    float: left;
+}
+
+.colect {
+    width: 130px;
+    float: right;
+}
+
+.w-dtl-snr-conllection {
+    background: url(https://res.360kad.com/theme/default/img/product2/more-lo.png) no-repeat;
+    text-indent: 20px;
+    width: 60px;
+    height: 26px;
+    line-height: 26px;
+    display: block;
+    float: left;
+    text-align: center;
+    color: #222222;
+    background-position: 6px -24px;
+}
+
+.w-dtl-snr-share {
+    background: url(https://res.360kad.com/theme/default/img/product2/more-lo.png) no-repeat;
+    text-indent: 22px;
+    width: 58px;
+    height: 26px;
+    line-height: 24px;
+    display: block;
+    float: right;
+    text-align: center;
+    color: #222222;
+    background-position: 8px -4px;
+}
+
+.w-dtl-kd-remd {
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #888888;
+    line-height: 20px;
+}
+
+.kd-remd-yel {
+    color: #ff8400;
+}
+
+.w-dtl-prem {
+    width: 608px;
+    padding-right: 18px;
+    float: left;
+    border-right: 1px solid #dddddd;
+    min-height: 564px;
+}
+
+.prem-proname {
+    font-size: 20px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.prem-prodesc {
+    color: #ff4040;
+    padding-bottom: 10px;
+    line-height: 18px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.prem-prodesc span {
+    color: #00f;
+}
+
+.prem-ac-information {
+    background-color: #f3f3f3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.nophone-l {
+    float: left;
+    width: 60px;
+    margin-top: 20px;
+    padding-left: 14px;
+}
+
+.grey888 {
+    color: #888888;
+}
+
+.nophone-r {
+    float: left;
+    width: 520px;
+    font-family: "微软雅黑";
+}
+
+.nophone-r span {
+    float: left;
+}
+
+.nophone-rspan2 {
+    color: #fc3535;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 11px;
+}
+
+.nophone-rspan5 {
+    font-size: 14px;
+    border: 1px solid #fc3535;
+    background-color: white;
+    color: #fc3535;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    margin-left: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.dtl-inf-top {
+    width: 100%;
+    height: 65px;
+    margin-top: 9px;
+    border-bottom: 1px dotted #b5b5b5;
+    padding-bottom: 6px;
+}
+
+.dtl-inf-top .dtl-inf-com {
+    margin-bottom: 4px;
+    line-height: 20px;
+}
+
+.dtl-inf-l {
+    width: 85px;
+    float: left;
+    padding-left: 14px;
+}
+
+.dtl-inf-r {
+    float: left;
+    width: 509px;
+    overflow: hidden;
+}
+
+.bule-unline {
+    color: #006fe6;
+}
+
+.dtl-inf-middle {
+    margin-top: 14px;
+
+}
+
+.dtl-inf-middle .dtl-inf-com {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.prem-dtl-infomation .dtl-inf-l {
+    padding-left: 14px;
+}
+
+.dtl-inf-middle .dtl-inf-l {
+    margin-top: 9px;
+}
+
+.dtl-inf-r {
+    float: left;
+    width: 509px;
+    overflow: hidden;
+}
+
+.dtl-inf-middle .dtl-inf-r ul li {
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #b5b5b5;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    margin-right: 8px;
+    margin-bottom: 6px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.dtl-inf-middle .dtl-inf-r ul .dtl-inf-rur {
+    border: 1px solid #ff4040;
+    background: url(https://res.360kad.com/theme/default/img/product2/xqy-li-bottom.png) no-repeat bottom right;
+}
+
+.inf-r-num-box {
+    height: 32px;
+    line-height: 32px;
+}
+
+.inf-r-numjs {
+    float: left;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #b5b5b5;
+}
+
+.numjs-com {
+    float: left;
+    width: 30px;
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "微软雅黑";
+    cursor: pointer;
+}
+
+.inf-r-numjs .numjs-m {
+    width: 58px;
+    height: 30px;
+    border: none;
+    border-left: 1px solid #b5b5b5;
+    border-right: 1px solid #b5b5b5;
+    text-align: center;
+    color: #212121;
+    float: left;
+    line-height: 30px;
+}
+
+.numjs-r {
+    float: right;
+    color: #212121;
+}
+
+.inf-rrzt {
+    float: left;
+    width: 377px;
+}
+
+.inf-rrzt-bule {
+    margin-left: 14px;
+    color: #4192e9;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+
+.dtl-inf-left {
+    margin-left: 79px;
+    padding-bottom: 16px;
+}
+.inf-r-wxhb {
+    margin-top: 12px;
+    position: relative;
+    width: 320px;
+    height: 14px;
+    line-height: 14px;
+    margin-left: 0;
+}
+.inf-r-wxhb span {
+    background: url(https://res.360kad.com/theme/default/img/product2/more-lo.png) no-repeat 0 -217px;
+    display: block;
+    padding-left: 20px;
+    color: #ff4040;
+}
+.wechat-hobao {
+    position: absolute;
+    width: 110px;
+    height: 106px;
+    z-index: 5;
+    top: -90px;
+    left: 210px;
+    display: none;
+}
+.inf-r-buystyle {
+    height: 46px;
+    padding-left: 18px;
+}
+.buystyle-pre {
+    width: 160px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    float: left;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    color: white;
+    background-color: #006fe6;
+    border: none;
+}
+.dtl-inf-fot {
+    margin-top: 10px;
+    padding-bottom: 16px;
+    position: relative;
+}
+
+.dtl-inf-fot .dtl-inf-r .inf-r-bzhi li {
+    float: left;
+    background-image: url(https://res.360kad.com/theme/default/img/product2/more-lo.png);
+    background-repeat: no-repeat;
+    text-indent: 16px;
+    height: 12px;
+    line-height: 12px;
+    margin-right: 20px;
+    background-position: 0 -120px;
+    border: none;
+    padding: 0;
+    margin-top: 12px;
+}
+.inf-cl-zffs {
+    color: #222222;
+    float: right;
+    background: url(https://res.360kad.com/theme/default/img/product2/more-lo.png) no-repeat 51px -269px;
+    padding-right: 20px;
+    margin-right: -8px;
+    margin-top: 8px;
+}
+
+.w-dtl-prer {
+    width: 188px;
+    float: left;
+}
+.pref-ourservice {
+    height: 65px;
+    padding-top: 28px;
+    padding-bottom: 30px;
+}
+.ourservice-js li {
+    float: left;
+    width: 33%;
+    text-align: center;
+    font-family: "微软雅黑";
+}
+.ourservice-js li span {
+    width: 42px;
+    height: 42px;
+    display: block;
+    margin-bottom: 9px;
+    margin-left: 10px;
+    background-image: url(https://res.360kad.com/theme/default/img/product2/zpys39.png);
+    background-repeat: no-repeat;
+}
+.oursv-js-zpbz span {
+    background-position: 0 0;
+}
+.oursv-js-zyys span {
+    background-position: -42px 0;
+}
+.oursv-js-39by span {
+    background-position: -84px 0;
+}
+.prer-kad-online {
+    width: 167px;
+    border-top: 1px dotted #b5b5b5;
+    border-bottom: 1px dotted #b5b5b5;
+    padding-bottom: 36px;
+    margin-left: 10px;
+}
+.kad-onl-dg {
+    margin-top: 26px;
+    margin-bottom: 20px;
+}
+.prer-wxsmgz {
+    text-align: center;
+    font-family: "微软雅黑";
+}

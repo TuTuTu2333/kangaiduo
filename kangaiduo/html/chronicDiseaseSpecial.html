@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/html-header.css">
+    <link rel="stylesheet" href="../css/fixed_navigation.css">
+    <link rel="stylesheet" href="../css/chronicDiseaseSpecial.css">
+    <link rel="stylesheet" href="../css/html-footer.css">
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/md5.js"></script>
+    <script src="../js/Cookie.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/header_footer.js"></script>
+    <script src="../js/chronicDiseaseSpecial.js"></script>
+</head>
+
+<body>
+    <div id="header"></div>
+    <div id="right_nav"></div>
+    <div class="head_box">
+        <div id="focus">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="https://res.360kad.com/theme/default/img/promotions/2016manxingjb/lb_01.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="https://res.360kad.com/theme/default/img/promotions/2016manxingjb/lb_02.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="https://res.360kad.com/theme/default/img/promotions/2016manxingjb/lb_03.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="https://res.360kad.com/theme/default/img/promotions/2016manxingjb/lb_04.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="https://res.360kad.com/theme/default/img/promotions/2016manxingjb/lb_05.jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="dotlist">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <div class="nav_box"></div>
+    <div class="zt_box">
+        <div class="jx_zt">
+            <p class="nav_01">精选专题</p>
+            <p class="nav_02">合理用药更健康</p>
+            <ul class="clearfix"></ul>
+        </div>
+    </div>
+    <div class="floorbox"></div>
+    <div id="foot"></div>
+
+    <script>
+        $.getJSON("../json/chronicDiseaseSpecial.json",
+            function (data) {
+                new ManagerchronicDisease(data).init();
+            });
+        // var nav_box = document.querySelector(".nav_box ul");
+        // var li = nav_box.children;
+        // var arr1 = [];
+        // for (var i = 0; i < li.length; i++) {
+        //     var obj = {};
+        //     obj.dt = li[i].querySelector("dt").innerText;
+        //     var arr2 = [];
+        //     var dd = li[i].querySelectorAll("dd span a");
+        //     for (var j = 0; j < dd.length; j++) {
+        //         var em = dd[j].innerText;
+        //         arr2.push(em);
+        //     }
+        //     obj.em = arr2;
+        //     arr1.push(obj);
+        // }
+        // console.log(JSON.stringify(arr1));
+
+        // var pro_box = document.querySelectorAll(".pro_box");
+        // var arr = [];
+        // for (var i = 0; i < pro_box.length; i++) {
+        //     var obj = {};
+        //     obj.title = pro_box[i].querySelector(".nav_01").innerText;
+        //     obj.slogan = pro_box[i].querySelector(".nav_03").innerText;
+
+        //     var li = pro_box[i].querySelectorAll("ul li");
+        //     var arr1 = [];
+        //     for (var j = 0; j < li.length; j++) {
+        //         var o = {};
+        //         o.src = li[j].querySelector(".pro_img a img").src;
+        //         o.name = li[j].querySelector(".pro_info .pro_name a").innerText;
+        //         o.ad = li[j].querySelector(".pro_ad").innerText;
+        //         o.price = li[j].querySelector(".pro_vip_pri").innerText;
+
+        //         arr1.push(o);
+        //     }
+        //     obj.con = arr1;
+        //     arr.push(obj)
+        // }
+        // console.log(JSON.stringify(arr));
+    </script>
+</body>
+
+</html>

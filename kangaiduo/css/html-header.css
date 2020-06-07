@@ -1,0 +1,692 @@
+.header_top {
+    background: #f1f1f1;
+    height: 30px;
+    color: #767676;
+    line-height: 30px;
+}
+
+.header_t,
+.header-center,
+.navc,
+.Crumbs {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.header_t,
+.header,
+.navc,
+.Crumbs {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.header_t_l {
+    float: left;
+}
+
+.header_t_r {
+    float: right;
+}
+
+.YnewNoLogin {
+    display: block;
+}
+
+.YnewNoLogin a {
+    color: #0a75e7;
+    padding: 0 4px;
+}
+
+.YnewYesLogin {
+    display: none;
+}
+
+.YnewYesLogin li {
+    float: left;
+    padding-right: 10px;
+}
+
+.hNavList li {
+    float: right;
+    padding: 0px 8px;
+    position: relative;
+    z-index: 23;
+}
+
+li.tphone,
+li.ttel,
+li.tcart {
+    background: url(http://res.360kad.com/theme/default/img/product/2014new/ico_t2.png) no-repeat 6px -74px;
+    padding-left: 20px;
+}
+
+li.ttel {
+    background-position: 1px -40px;
+    font-weight: bold;
+    font-family: "Microsoft YaHei";
+}
+
+li.tcart {
+    background-position: -3px -4px;
+    font-weight: bold;
+    font-family: "Microsoft YaHei";
+}
+
+.hNavList .Ymyorder {
+    width: 60px;
+}
+
+.hNavList .Ycen {
+    display: block;
+    /*none*/
+}
+
+.hNavList .Yico_dian {
+    background: url(http://res.360kad.com/theme/default/img/product/2014new/ico_t.png) no-repeat -2px -120px;
+    position: absolute;
+    right: 5px;
+    top: 12px;
+    display: block;
+    width: 10px;
+    height: 10px;
+}
+
+.tlast {
+    padding-right: 12px;
+    cursor: pointer;
+}
+
+.Ymykadc,
+.Ymyorderc,
+.YServicec,
+.Ywebnavc {
+    background: #FFFFFF;
+    line-height: 24px;
+    padding: 5px 7px;
+}
+
+.Ytopnavdiv {
+    display: none;
+    /*none*/
+}
+
+.hNavList .Ywebnav .Ytopnavdiv {
+    width: 677px;
+}
+
+.hNavList .Ywebnav .Ytopnavdiv dl {
+    float: left;
+    width: 210px;
+    padding: 0px 0px 0px 15px;
+    margin: 10px 0px;
+    line-height: 24px;
+}
+
+.hNavList .Ywebnav .Ytopnavdiv dl.d2 {
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+}
+
+.hNavList .Ywebnav .Ytopnavdiv dl dt {
+    font-weight: bold;
+    color: #2d8ef3;
+}
+
+.hNavList .Ywebnav .Ytopnavdiv dl dd {
+    float: left;
+    width: 70px;
+}
+
+.hNavList .Ytopnavdiv a {
+    color: #939393;
+}
+
+.hNavList .YService .Ytopnavdiv {
+    width: 76px;
+    text-align: center;
+}
+
+li.tcart a {
+    margin: 0px 3px;
+}
+
+.hNavList .Ymyorder .Ycen {
+    width: 76px;
+}
+
+.hNavList .Ymyorder .Yico_dian {
+    right: 7px;
+}
+
+.hNavList .Ymyorder .Ytopnavdiv {
+    width: 76px;
+    left: 0px;
+    right: auto;
+}
+
+.hNavList .Ymykad .Ytopnavdiv {
+    width: 88px;
+    text-align: center;
+}
+
+.hNavList .Yhover .Ycen {
+    background: #FFFFFF;
+    position: absolute;
+    height: 31px;
+    width: 100%;
+    display: none;
+    z-index: -1;
+    margin-left: -8px;
+    border: 1px solid #e6e6e6;
+    border-bottom: none;
+    border-top: none;
+    top: 0;
+}
+
+.hNavList .Yhover .Yico_dian {
+    background-position: -2px -133px;
+}
+
+.hNavList .Yhover .Ytopnavdiv {
+    position: absolute;
+    background: #FFFFFF;
+    display: none;
+    border: 1px solid #e6e6e6;
+    z-index: -2;
+    right: -2px;
+    top: 30px;
+    overflow: hidden;
+}
+
+.hNavList .Yhover .Ytopnavdiv b {
+    color: #cc0000;
+    padding-left: 3px;
+}
+
+.header-center {
+    position: relative;
+    width: 1200px;
+    height: 112px;
+    z-index: 22;
+}
+
+.header_l {
+    float: left;
+    width: 342px;
+}
+
+.header_logo {
+    padding-top: 14px;
+}
+
+.header_logo p {
+    padding-top: 6px;
+}
+
+.header_r {
+    float: left;
+    width: 650px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.header_search {
+    border: 2px solid #0a75e7;
+    width: 586px;
+    margin-left: 0;
+    height: 36px;
+    position: relative;
+    float: left;
+    z-index: 6;
+    font-family: "Microsoft YaHei";
+}
+
+.header_search .stxt {
+    border: none;
+    width: 502px;
+    float: left;
+    padding: 3px 0px 3px 8px;
+    line-height: 30px;
+    height: 30px;
+    background: #ffffff;
+    font-family: "Microsoft YaHei";
+}
+
+.header_search .sbtn {
+    background: url(http://res.360kad.com/theme/default/img/2014NewWeb/search.jpg) no-repeat;
+    border: none;
+    width: 76px;
+    height: 36px;
+    font-size: 0px;
+    cursor: pointer;
+    background-size: 76px 36px;
+}
+
+.search_history {
+    width: 508px;
+    display: none;
+    position: absolute;
+    z-index: 20;
+    border: 1px solid #e6e6e6;
+    left: -1px;
+    top: 37px;
+    background-color: #fff;
+    height: 270px;
+}
+
+.search_history_l {
+    width: 230px;
+    float: left;
+    border-right: solid 1px #e6e6e6;
+    padding-top: 5px;
+    height: 266px;
+}
+
+.search_history_t {
+    padding: 0 10px;
+    line-height: 22px;
+    color: #959595;
+}
+
+.s_historylist li span,
+.search_history_t span {
+    float: right;
+    color: #767676;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.search_history_t span a {
+    text-decoration: underline;
+    color: #767676;
+    font-weight: normal;
+}
+
+.s_historylist li {
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 24px;
+    height: 24px;
+    padding: 0px 10px;
+    color: #000;
+}
+
+.s_historylist li a {
+    width: 190px;
+    display: inline-block;
+}
+
+.s_historylist li a {
+    width: 190px;
+    display: inline-block;
+}
+
+.s_historylist li span {
+    display: none;
+}
+
+.no_history {
+    color: #767676;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.search_history_r {
+    width: 215px;
+    float: left;
+    padding: 8px 0px 8px 10px;
+    height: 254px;
+    overflow: hidden;
+}
+
+.search_history_r p {
+    color: #959595;
+    padding-bottom: 15px;
+}
+
+.search_history_r a {
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 9px;
+    padding: 2px 5px;
+    border: solid 1px #cfcfcf;
+    white-space: nowrap;
+    font-weight: normal;
+    color: #000;
+    margin-right: 5px;
+}
+
+.header_r_d {
+    padding: 10px 0px 0px;
+    clear: both;
+    height: 15px;
+    line-height: 15px;
+}
+
+.header_r_d a {
+    margin-right: 15px;
+}
+
+.nav {
+    background: #ffffff;
+    height: 38px;
+    clear: both;
+    border-bottom: 2px solid #0063cd;
+}
+
+.nav .navc {
+    position: relative;
+    z-index: 10;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 40px;
+}
+
+.categorys {
+    float: left;
+    width: 180px;
+    height: 38px;
+    background: #0066d4;
+    border-bottom: 2px solid #0063cd;
+    z-index: 4;
+    position: relative;
+}
+
+.categorys h2 {
+    line-height: 38px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    background: url(http://res.360kad.com/theme/default/img/product/2016new/quan.png) no-repeat 22px center;
+}
+
+.nav a {
+    font-family: "Microsoft YaHei";
+}
+
+.categorys h2 a {
+    color: #FFFFFF;
+    line-height: 36px;
+    padding: 0px 25px;
+    font-weight: normal;
+}
+
+.lNav {
+    width: 180px;
+    height: 400px;
+    background: #036dde;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    z-index: 5;
+    font-family: "microsoft yahei";
+    display: none;
+}
+
+.lNav_lists {
+    width: 180px;
+    height: 400px;
+}
+
+.lNav_lists li {
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 14px;
+    box-sizing: border-box;
+    color: #fff;
+    border-left: 1px solid #036dde;
+    overflow: hidden;
+}
+
+.lNav_pop {
+    position: absolute;
+    left: 179px;
+    top: 0;
+    width: 1022px;
+    min-height: 400px;
+    padding: 20px 35px 20px 0;
+    background: #fff;
+    border-bottom: 1px solid #036DDE;
+    border-right: 1px solid #036DDE;
+    border-left: 1px solid #036DDE;
+    box-sizing: border-box;
+    z-index: -1;
+    display: none;
+}
+
+.bor {
+    width: 100%;
+    height: 39px;
+    border-bottom: 1px dashed #0a5fbb;
+}
+
+.lNav_lists li a {
+    color: #c2d8fe;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.bor a:first-child {
+    margin-right: 3px;
+}
+
+.lNav_lists li a b {
+    color: #fff;
+}
+
+.lNav_pop dl {
+    width: 100%;
+    height: 39px;
+}
+
+.lNav_pop dl a:hover {
+    color: #f00;
+    text-decoration: underline #f00;
+}
+
+.lNav_pop dt {
+    float: left;
+    width: 92px;
+    height: 39px;
+    padding-right: 42px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    background: url(http://res1.360kad.com/theme/default/img/2014newKad/r-btn.png) no-repeat;
+    background-position: 108px center;
+    background-size: 5px 8px;
+}
+
+.lNav_pop dt a {
+    font-size: 14px;
+    color: #333;
+}
+
+.lNav_pop dd {
+    position: relative;
+    width: 845px;
+    height: 100%;
+    font-size: 14px;
+    color: #b8b8b8;
+    float: left;
+    overflow: hidden;
+    background: #fff url(http://res1.360kad.com/theme/default/img/product/2016new/border_img.jpg) repeat-x left bottom;
+}
+
+.lNav_pop dd a {
+    font-size: 14px;
+    color: #666;
+    padding: 0 10px;
+}
+
+.lNav_pop dd a.keys {
+    color: red;
+}
+
+.lNav_lists li:hover,
+.lNav_lists li.active {
+    background: #fff;
+    border-bottom: 1px solid #036dde;
+    color: #5991e5;
+}
+
+.lNav_lists li:hover .list_t a,
+.lNav_lists li.active .list_t a {
+    color: #3195ff;
+}
+
+.lNav_lists li:hover .list_t a b,
+.lNav_lists li.active .list_t a b {
+    color: #036dde;
+}
+
+.navclist {
+    float: left;
+    padding-left: 1px;
+}
+
+.navclist li {
+    float: left;
+    height: 38px;
+}
+
+.navclist .li2 {
+    display: block;
+}
+
+.navclist .li3 {
+    display: block;
+}
+
+.navclist .li6 {
+    display: none;
+}
+
+.navclist .li7 span {
+    display: none;
+    padding-top: 12px;
+}
+
+.kad-mc-ask {
+    position: relative;
+    z-index: 20;
+}
+
+.kad-mc-askBox {
+    display: none;
+    padding: 5px 0;
+    position: absolute;
+    top: 38px;
+    z-index: 8;
+    border: 1px solid #e0e0e0;
+    background: #fff;
+    font-size: 12px;
+}
+
+#kad-mc-askBox1 {
+    border-top: none;
+    width: 222px;
+    height: 96px;
+    display: none;
+}
+
+.aski {
+    border-color: rgb(0, 0, 0) transparent transparent;
+    width: 0px;
+    height: 0px;
+    border-width: 5px;
+    font-size: 0px;
+    line-height: 0;
+    border-style: solid dashed dashed;
+}
+
+.pst-i1 {
+    position: absolute;
+    right: 0;
+    top: 18px;
+}
+
+.pst-i2 {
+    position: absolute;
+    right: 0;
+    top: 18px;
+}
+
+.navclist li .kad-mc-askBox .pl16 {
+    padding-left: 16px;
+}
+
+#kad-mc-askBox {
+    width: 140px;
+    height: 355px;
+    text-align: center;
+    border-width: 0px 1px 1px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-color: rgb(218, 218, 218);
+    border-bottom-color: rgb(218, 218, 218);
+    border-left-color: rgb(218, 218, 218);
+    border-image: initial;
+    border-top-style: initial;
+    border-top-color: initial;
+    display: none;
+}
+
+#kad-mc-askBox p {
+    font-size: 16px;
+    line-height: 170%;
+}
+
+#kad-mc-askBox p.fistP {
+    color: #000000;
+    font-weight: bold;
+    font-family: "Microsoft YaHei";
+}
+
+#kad-mc-askBox p.secendP {
+    color: red;
+}
+
+.navclist li .kad-mc-askBox a {
+    padding-left: 18px;
+    float: left;
+    width: 74px;
+    color: #666;
+    text-align: center;
+    line-height: 24px;
+    height: 24px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.navclist li.kad-mc-ask .kad-mc-askBox a {
+    font-size: 14px;
+}
+
+.navclist li a,
+.navclist li.kad-mc-ask>a {
+    color: #000;
+    display: block;
+    line-height: 38px;
+    padding: 0px 20px;
+    font-family: "Microsoft YaHei";
+}
+
+.navclist li a:hover,
+.navclist li.kad-mc-ask a:hover {
+    text-decoration: none;
+    color: #0063cd;
+    font-family: "Microsoft YaHei";
+}
+
+.navclist li a {
+    font-size: 16px;
+}

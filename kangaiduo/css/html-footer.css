@@ -1,0 +1,291 @@
+.wrap_footer {
+    width: 100%;
+    background: #1a82ee;
+    clear: both;
+}
+
+.wrap_footer .item01 {
+    width: 100%;
+    height: 110px;
+    border-bottom: 1px solid #147ce8;
+}
+
+.wrap_footer .item01 .width1200,
+.footer_list .width1200 {
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.wrap_footer .item01 dl {
+    width: 1200px;
+    padding: 30px 0px;
+}
+
+.wrap_footer .item01 dl dd {
+    float: left;
+    display: inline;
+    padding-right: 58px;
+}
+
+.wrap_footer .item01 dl dd img {
+    float: left;
+    display: inline;
+    margin-right: 8px;
+}
+
+.wrap_footer .item01 dl dd .medicineWorld {
+    float: left;
+    display: inline;
+    color: #ffffff;
+}
+
+.wrap_footer .item01 dl dd .medicineWorld p.t {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Microsoft YaHei";
+    margin-bottom: 5px;
+}
+
+.wrap_footer .item02 {
+    height: 239px;
+    border-top: 1px solid #0c74df;
+    border-bottom: 0;
+}
+
+.wrap_footer .item02 .width1200 {
+    padding: 36px 0 40px 20px;
+    width: 1180px;
+    height: 162px;
+}
+
+.wrap_footer .item02 .lside {
+    float: left;
+    width: 248px;
+    color: #fff;
+    border-right: 1px solid #0c74df;
+    padding-right: 50px;
+}
+
+.wrap_footer .item02 .lside .appCode {
+    float: left;
+    width: 106px;
+}
+
+.wrap_footer .item02 .lside .title {
+    padding-bottom: 8px;
+    text-align: center;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+}
+
+.wrap_footer .item02 .lside .appCode .code1 {
+    width: 106px;
+    height: 106px;
+    background: url(http://res.360kad.com/theme/default/img/2014newKad/codeallbgs.gif) 0 0 no-repeat;
+}
+
+.wrap_footer .item02 .lside .weixinCode .code2 {
+    width: 106px;
+    height: 106px;
+    background: url(http://res.360kad.com/theme/default/img/2018newKad/code1.jpg) 0 0 no-repeat;
+}
+
+.wrap_footer .item02 .lside .appCode .pl8 {
+    padding-top: 8px;
+    text-align: center;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+}
+
+.wrap_footer .item02 .lside .weixinCode {
+    float: right;
+    width: 106px;
+}
+
+.wrap_footer .item02 .lside .title02 {
+    padding-top: 8px;
+    width: 78px;
+    line-height: 16px;
+    text-align: center;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+}
+
+.wrap_footer .item02 .mside {
+    float: right;
+}
+
+.wrap_footer .item02 .mside li {
+    float: left;
+    width: 114px;
+    text-align: left;
+    color: #fff;
+    line-height: 22px;
+}
+
+.wrap_footer .item02 .mside li .title {
+    padding-bottom: 12px;
+    font: bold 16px/24px "";
+}
+
+.wrap_footer .item02 .mside li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Microsoft YaHei";
+}
+
+.wrap_footer .item02 .mside li a:hover {
+    text-decoration: underline #fff;
+}
+
+.wrap_footer .item02 .mside .phonePic {
+    padding-top: 4px;
+    padding-left: 60px;
+    width: 192px;
+    border-left: 1px solid #0b72de;
+}
+
+.footer_list {
+    padding-top: 10px;
+    width: 100%;
+    overflow: hidden;
+    line-height: 22px;
+}
+
+.footer_list a:hover {
+    color: #f00;
+    text-decoration: underline #f00;
+}
+
+.footer_list .text:hover {
+    color: #f00;
+}
+
+.wrap_footer .item01 .width1200,
+.footer_list .width1200 {
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.footer_list p .title {
+    font-weight: bold;
+    color: #666;
+}
+
+.footer_list a {
+    padding-right: 12px;
+    color: #666;
+}
+
+.footer_list p.friendLinks {
+    height: 22px;
+    overflow: hidden;
+}
+
+.footer_list p .fl {
+    float: left;
+}
+
+.footer_list p .linkBox {
+    width: 1092px;
+    text-align: left;
+}
+
+.footer_list a {
+    padding-right: 12px;
+    color: #666;
+}
+
+.footer_list .aboutKadList {
+    margin-top: 6px;
+    padding-top: 6px;
+    border-top: 1px solid #cdcdcd;
+    text-align: center;
+}
+
+.footer_list .aboutKadList a {
+    padding-right: 0;
+    color: #666;
+    position: relative;
+}
+
+.footer_list .aboutKadList a.pifa_shop span {
+    background: url(http://res.360kad.com/theme/default/img/product/2014new/pifa_new.png);
+    width: 23px;
+    height: 10px;
+    display: inline-block;
+    position: absolute;
+    top: -7px;
+    left: 27px;
+}
+
+.footer_list .diploma_list {
+    padding: 0 0 20px 16px;
+    text-align: center;
+}
+
+.footer_list .diploma_list .pr8 {
+    padding-right: 8px;
+}
+
+.footer_list .diploma_list a {
+    padding-right: 0;
+}
+
+.footer_list .hyRz {
+    padding-left: 224px;
+    width: 1200px;
+    text-align: center;
+}
+
+.footer_list .hyRz li {
+    padding-left: 8px;
+    float: left;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+.footer_list .hyRz li a {
+    padding-right: 0;
+    float: left;
+    color: #333;
+    line-height: 18px;
+}
+
+.footer_list .hyRz li a:hover {
+    color: #f00;
+}
+
+.footer_list .hyRz li .txt {
+    padding-right: 4px;
+    width: 82px;
+    background: url(http://res.360kad.com/theme/default/img/2014newKad/rightLine.png) no-repeat right 6px;
+}
+
+.footer_list .hyRz li .item01 {
+    padding-left: 1px;
+    width: 60px;
+}
+
+.footer_list .hyRz li .item02 {
+    width: 56px;
+}
+
+.yueText {
+    position: relative;
+    top: -12px;
+    left: 0px;
+}
+
+.footer_list .bottom {
+    padding: 5px 0;
+    text-align: center;
+    color: #666;
+}
+
+.footer_list .bottom a {
+    padding-right: 0;
+}

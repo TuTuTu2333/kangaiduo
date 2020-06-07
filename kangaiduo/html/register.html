@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../css/login-register_footer.css">
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/captcha.js"></script>
+    <script src="../js/md5.js"></script>
+    <script src="../js/register.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-list1">
+            <span><a href="http://127.0.0.1/H51913/myProject1/kangaiduo"><img
+                        src="https://res.360kad.com/theme/user/img/login_logo.jpg" alt=""></a></span>
+            <p><img src="https://res.360kad.com/theme/default/img/user/2015/autoSlogo.gif" alt=""></p>
+        </div>
+        <div class="header-list2">欢迎注册</div>
+        <div class="header-list3">已有账号：
+            <a href="./login.html">立即登录</a>
+        </div>
+    </div>
+    <div style="background-color: blue; width: auto; height: 2px;"></div>
+    <div class="box">
+        <h3 class="register-title">欢迎注册康爱多账号</h3>
+        <div class="register-from">
+            <div class="bind-input-wrap clearfix">
+                <div class="bind-input">
+                    <p class="user-font">手
+                        <i class="phoneNum"></i>机
+                        <i class="phoneNum"></i>号
+                        <i class="phoneNum"></i>码
+                    </p>
+                    <input type="text" id="phone" class="user-name" placeholder="请输入手机号码">
+                    <p class="yes-icon1"><i></i></p>
+                </div>
+                <p class="bind-cont-prompt">
+                    <span class="prompt-size"></span>
+                </p>
+            </div>
+
+            <div class="bind-input-wrap clearfix">
+                <div class="bind-input">
+                    <p class="user-font">密
+                        <i class="indentSize2"></i>码
+                    </p>
+                    <input type="password" id="pwd" class="user-name" placeholder="请输入密码">
+                    <p id="showPwd" class="yes-icon eye-icon">
+                        <i class="open"></i>
+                    </p>
+                </div>
+                <p class="bind-cont-prompt">
+                    <span class="prompt-size"></span>
+                </p>
+            </div>
+
+            <div class="bind-input-wrap clearfix">
+                <div class="bind-code">
+                    <p class="user-font code-font">验
+                        <i class="authCode"></i>证
+                        <i class="authCode"></i>码
+                    </p>
+                    <input type="text" maxlength="6" class="code-name" placeholder="请输入验证码" id="imageCode">
+                    <canvas width="160" height="45" id="captcha" class="captcha"></canvas>
+
+                </div>
+                <p class="bind-cont-prompt">
+                    <span class="prompt-size yan"></span>
+                </p>
+
+            </div>
+            <button class="login-btn">立即注册</button>
+
+            <div class="pay-type">
+                <div class="payt-top">
+                    <p class="paytop-name">使用合作网站账号登录康爱多</p>
+                    <p class="paytop-line"></p>
+                </div>
+                <ul class="clearfix">
+                    <li class="ptype-wechat"></li>
+                    <li class="ptype-qq"></li>
+                    <li class="ptype-tb"></li>
+                    <li class="ptype-zfb"></li>
+                    <li class="ptype-sina"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="foot"></div>
+</body>
+
+</html>

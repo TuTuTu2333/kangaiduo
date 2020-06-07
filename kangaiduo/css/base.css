@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+/**
+ * @name	:HTML标签重定义
+ * @author	:且听风铃(email:469477741@qq.com)
+ * @version	:1.0
+ * @type	:公共规则
+ * @explain	:无
+ */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquoteth,
+td {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+object,
+input,
+textarea {
+	outline: none;
+}
+
+fieldset,
+img {
+	border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+i {
+	font-style: normal;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+capation,
+th {
+	text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+q:before,
+q:after {
+	content: ''
+}
+
+abbr,
+acronym {
+	border: 0;
+}
+
+input {
+	border: 0;
+	resize: none;
+	outline: none;
+}
+
+/* 以下样式根据不同的网站可能需要改写 */
+body {
+	font-family: 微软雅黑, "Microsoft YaHei";
+	font-size: 12px;
+	line-height: 150%;
+	background-color: #fff;
+}
+
+textarea {
+	font-family: Courier New, sans-serif;
+	font-size: 13px;
+}
+
+i {
+	font-style: normal;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:visited {
+	color: #000;
+}
+
+a:hover {
+	text-decoration: underline;
+	/*text-decoration:none;*/
+	color: #000;
+}
+
+/*如果一个块级对象内部包含浮动对象，应该给该块级对象使用clearfix*/
+
+.clearfix:after {
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+*html .clearfix {
+	height: 1%
+}
+
+.clearfix {
+	display: block;
+}

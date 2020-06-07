@@ -1,0 +1,487 @@
+.wrap1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.mainNav {
+    height: 38px;
+}
+
+.mainNav .mainNav_l {
+    width: 180px;
+    height: 38px;
+    line-height: 38px;
+    float: left;
+    font-size: 15px;
+    color: #fff;
+    background: #3d4e8a url(http://res.360kad.com/theme/default/img/product/2016new/quan.png) no-repeat 23px center;
+    background-size: 16px 16px;
+    text-indent: 55px;
+}
+
+.mainNav .mainNav_list {
+    width: 1020px;
+    float: left;
+    font-size: 0px;
+}
+
+.mainNav .mainNav_list li {
+    padding: 0 25px;
+    line-height: 38px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.mainNav .mainNav_list li a {
+    color: #131313;
+    text-decoration: none;
+}
+
+.mainNav .mainNav_list li a:hover {
+    color: #3d4e8a;
+}
+
+.wrap1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.banner {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 25px;
+    /* background: none; */
+}
+
+.sliderBg {
+    background-color: none;
+    transition: all 0.5s linear 0s;
+}
+
+.banner_l {
+    width: 180px;
+    height: 400px;
+    background: #34363c;
+    float: left;
+}
+
+.subMenu {
+    height: 79px;
+    color: #fff;
+    font-weight: normal;
+    padding: 10px 0;
+    margin: 0 10px;
+    border-bottom: 1px solid #494a50;
+    text-indent: 5px;
+}
+
+.subMenu .subMenu_h {
+    color: #fff;
+    font-size: 18px;
+}
+
+.subMenu a {
+    color: #fff;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.subMenu .subMenu_h a {
+    height: 35px;
+    line-height: 35px;
+    display: block;
+    font-size: 18px;
+}
+
+.subMenu .subMenu_h span {
+    float: right;
+    font-size: 18px;
+    font-family: "楷体", "宋体";
+}
+
+.subMenu p {
+    font-size: 14px;
+    color: #959595;
+}
+
+.banner_c {
+    width: 810px;
+    height: 400px;
+    float: left;
+}
+
+.banner_c {
+    position: relative;
+    overflow: hidden;
+}
+
+.banner_c ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.banner_c img {
+    vertical-align: top;
+    width: 810px;
+    height: 400px;
+    display: block;
+}
+
+.banner_c .dot {
+    width: 810px;
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    z-index: 2;
+    text-align: center;
+}
+
+.banner_c .dot li {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border-radius: 100%;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+.banner_c .dot li.hover {
+    background: #334165;
+}
+
+.banner_r {
+    width: 210px;
+    height: 400px;
+    background: #fff;
+    float: right;
+}
+
+.payment {
+    position: relative;
+}
+
+.payment_t {
+    height: 130px;
+}
+
+.payment_t dl {
+    width: 70px;
+    height: 129px;
+    float: left;
+    position: relative;
+}
+
+.payment_t dt {
+    width: 70px;
+    height: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+.payment_t dt span.txt {
+    width: 70px;
+    padding-top: 82px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.payment_t dt img {
+    display: block;
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    top: 23px;
+    left: 9px;
+}
+
+.hover_box {
+    display: none;
+    width: 188px;
+    height: 248px;
+    background: #f2f5ff;
+    border: 1px solid #3d4e8a;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    padding: 10px;
+}
+
+.hover_box .hover_con {
+    display: none;
+    background: #f2f5ff;
+    width: 188px;
+    height: 248px;
+}
+
+.hover_box .tit {
+    color: #3d4e8a;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.hover_box .con {
+    color: #666;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.hover_box .go {
+    text-align: right;
+    padding-top: 10px;
+}
+
+.hover_box .go a {
+    color: #3d4e8a;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.payment_b,
+.payment_b img {
+    width: 210px;
+    height: 270px;
+}
+
+.conkadtab {
+    width: 100%;
+    height: 330px;
+}
+
+.conkadtab .tabNav {
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.conkadtab .tabNav span {
+    transition: 0.2s ease-in;
+    display: block;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    background: #e5e5e5;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    color: #000;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.conkadtab .tabNav span.active {
+    background: #3f518d;
+    color: #fff;
+}
+
+.conkadtab .tabCon {
+    width: 100%;
+    height: 280px;
+}
+
+.conkadtab .tabCon ul {
+    display: none;
+    transition: 0.2s ease-in;
+}
+
+.conkadtab .tabCon ul.show {
+    display: block;
+}
+
+.conkadtab .tabCon li {
+    width: 292px;
+    height: 280px;
+    margin-right: 8px;
+    float: left;
+    position: relative;
+    transition: .3s ease-out;
+    position: relative;
+}
+
+.conkadtab .tabCon li img {
+    display: block;
+    width: 292px;
+    height: 280px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.floor {
+    width: 1200px;
+    height: 575px;
+}
+
+.floor .f_head {
+    position: relative;
+    height: 44px;
+    line-height: 44px;
+    text-indent: 20px;
+    border-bottom: 1px solid #5e6fa7;
+}
+
+.floor .f_head i {
+    font-style: normal;
+    display: block;
+    width: 4px;
+    height: 26px;
+    background: #425390;
+    position: absolute;
+    left: 0;
+    top: 11px;
+}
+
+.floor .f_head span {
+    font-size: 24px;
+}
+
+.floor .f_head span {
+    font-size: 24px;
+}
+
+.floor .f_keywords {
+    float: right;
+}
+
+.floor .f_keywords a {
+    font-size: 14px;
+}
+
+.floor .f_con {
+    height: 540px;
+}
+
+.floor .f_con_l {
+    width: 243px;
+    height: 540px;
+    background: #5e6fa7;
+    float: left;
+    position: relative;
+}
+
+.floor .f_con_l .img,
+.floor .f_con_l img {
+    width: 243px;
+    height: 377px;
+    display: block;
+}
+
+.floor .f_nav {
+    width: 243px;
+    height: 163px;
+    background: #3d4d86;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.floor .f_nav ul {
+    width: 243px;
+    padding: 34px 0 0;
+}
+
+.floor .f_nav li {
+    width: 96px;
+    height: 23px;
+    border: 1px solid #8a94b7;
+    background: #506099;
+    text-align: center;
+    line-height: 23px;
+    float: left;
+    margin: 0 0 16px 16px;
+}
+
+.floor .f_nav li a,
+.floor .f_nav .more a {
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    text-decoration: none;
+}
+
+.floor .f_nav .more {
+    position: absolute;
+    right: 25px;
+    bottom: 33px;
+}
+
+.floor .f_con_r {
+    width: 957px;
+    height: 540px;
+    float: right;
+}
+
+.f_con_r li {
+    width: 239px;
+    height: 270px;
+    border: 1px solid #eee;
+    float: left;
+    box-sizing: border-box;
+    transition: 0.3s ease-in;
+}
+
+.f_con_r .pic {
+    width: 140px;
+    height: 140px;
+    padding: 25px 50px;
+}
+
+.f_con_r .pic img {
+    margin: 0 auto;
+    width: 140px;
+    height: 140px;
+    display: block;
+}
+
+.f_con_r .pic img {
+    margin: 0 auto;
+    width: 140px;
+    height: 140px;
+    display: block;
+}
+
+.f_con_r .title {
+    width: 200px;
+    padding: 0 20px;
+    text-align: center;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.f_con_r .title a {
+    font-size: 14px;
+    color: #666;
+}
+
+.f_con_r .price {
+    padding: 5px 20px;
+}
+
+.f_con_r .salesPrice {
+    font-size: 22px;
+    color: #ff0000;
+}
+
+.f_con_r .salesPrice i {
+    font-style: normal;
+    font-size: 14px;
+}
+
+.f_con_r .originalPrice {
+    font-size: 14px;
+    color: #666;
+    margin-left: 20px;
+    text-decoration: line-through;
+}
+#foot{
+    margin-top: 35px;
+}

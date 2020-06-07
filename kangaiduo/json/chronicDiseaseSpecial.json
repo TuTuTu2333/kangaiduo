@@ -1,0 +1,351 @@
+{
+    "one": [
+        {
+            "dt": "肝病科",
+            "em": [
+                "乙肝",
+                "肝纤维化",
+                "肝硬化",
+                "脂肪肝",
+                "肝性脑病",
+                "免疫调节",
+                "胆结石",
+                "更多..."
+            ]
+        },
+        {
+            "dt": "肿瘤科",
+            "em": [
+                "肝癌",
+                "肺癌",
+                "胃癌",
+                "乳腺癌",
+                "白血病",
+                "广谱抗癌",
+                "抗排斥",
+                "免疫调节",
+                "更多..."
+            ]
+        },
+        {
+            "dt": "泌尿科疾病",
+            "em": [
+                "肾炎",
+                "尿毒症",
+                "氮质血症",
+                "肾结石",
+                "肾病综合症",
+                "膀胱结石",
+                "遗尿症",
+                "更多..."
+            ]
+        },
+        {
+            "dt": "内分泌",
+            "em": [
+                "糖尿病",
+                "甲减",
+                "甲亢",
+                "更多..."
+            ]
+        },
+        {
+            "dt": "心脑血管",
+            "em": [
+                "高血压",
+                "高血脂",
+                "冠心病",
+                "心绞痛",
+                "心律失常",
+                "脑血栓",
+                "更多..."
+            ]
+        },
+        {
+            "dt": "风湿骨科",
+            "em": [
+                "骨关节炎",
+                "风湿病",
+                "类风湿",
+                "骨质增生",
+                "骨质疏松",
+                "腰椎间盘突出",
+                "痛风",
+                "更多..."
+            ]
+        },
+        {
+            "dt": "神经科",
+            "em": [
+                "帕金森",
+                "癫痫",
+                "中风",
+                "痴呆",
+                "精神分裂症",
+                "神经损伤",
+                "焦虑症",
+                "更多..."
+            ]
+        },
+        {
+            "dt": "皮肤科",
+            "em": [
+                "白癜风",
+                "真菌感染",
+                "皮炎湿疹",
+                "疱疹",
+                "尖锐湿疣",
+                "皮肤瘙痒",
+                "淋病梅毒",
+                "更多..."
+            ]
+        },
+        {
+            "dt": "呼吸科",
+            "em": [
+                "扁桃体炎",
+                "肺结核",
+                "呼吸道感染",
+                "咳嗽",
+                "哮喘",
+                "支气管哮喘",
+                "咽喉炎",
+                "支气管炎",
+                "更多..."
+            ]
+        },
+        {
+            "dt": "男科",
+            "em": [
+                "阳痿早泄",
+                "肾阳虚",
+                "肾阴虚",
+                "少精弱精",
+                "前列腺炎",
+                "泌尿结石",
+                "肾炎",
+                "男性保健",
+                "更多..."
+            ]
+        },
+        {
+            "dt": "五官科",
+            "em": [
+                "白内障",
+                "视网膜病变",
+                "干眼症",
+                "结膜炎",
+                "耳聋耳鸣",
+                "口腔溃疡",
+                "鼻炎鼻窦炎",
+                "更多..."
+            ]
+        },
+        {
+            "dt": "妇科",
+            "em": [
+                "阴道炎",
+                "月经不调",
+                "更年期综合症",
+                "乳腺增生",
+                "痛经",
+                "子宫肌瘤",
+                "白带异常",
+                "更多..."
+            ]
+        }
+    ],
+    "two": [
+        "https://res.360kad.com/theme/default/img/promotions/2016manxingjb/zt_01.jpg", 
+        "https://res.360kad.com/theme/default/img/promotions/2016manxingjb/zt_02.jpg", 
+        "https://res.360kad.com/theme/default/img/promotions/2016manxingjb/zt_03.jpg", 
+        "https://res.360kad.com/theme/default/img/promotions/2016manxingjb/zt_04.jpg", 
+        "https://res.360kad.com/theme/default/img/promotions/2016manxingjb/zt_05.jpg", 
+        "https://res.360kad.com/theme/default/img/promotions/2016manxingjb/zt_06.jpg", 
+        "https://res.360kad.com/theme/default/img/promotions/2016manxingjb/zt_07.jpg", 
+        "https://res.360kad.com/theme/default/img/promotions/2016manxingjb/zt_09.jpg", 
+        "https://res.360kad.com/theme/default/img/promotions/2016manxingjb/zt_08.jpg"
+    ],
+    "three":[
+        {
+            "title": "乙肝",
+            "slogan": "爱肝护肝，享受健康",
+            "con": [
+                {
+                    "src": "http://image.360kad.com/group1/M00/2B/FB/CgAgEFcjGO-AP7QZAAG46G-8ZKg397.jpg_180x180.jpg",
+                    "name": "博路定 恩替卡韦片 0.5mg*7片",
+                    "ad": "【快递停运，速囤年货】低至176元/盒。满40盒送赶黄草+姜枣茶；满26盒送维生素C；满13盒送黑枸杞；满5盒送口罩。数量有限！",
+                    "price": "￥215"
+                },
+                {
+                    "src": "http://image.360kad.com/group1/M00/43/F5/CgAgEVepRd2ALnLFAAG8AS_KJG0863.jpg_180x180.jpg",
+                    "name": "阿甘定 阿德福韦酯片 10mg*10片",
+                    "ad": "【快递停运，速囤年货】低至33元/盒。满18盒送赶黄草+姜枣茶；满12盒送维生素C；满6盒送黑枸杞；满3盒送口罩。数量有限！",
+                    "price": "￥75"
+                },
+                {
+                    "src": "http://image.360kad.com/group2/M00/97/9F/CgAgFVuiB_GABh4DAAGSfroYmss999.jpg_180x180.jpg",
+                    "name": "贺普丁 拉米夫定片 0.1g*14片",
+                    "ad": "【快递停运，速囤年货】低至143元/盒。满26盒送赶黄草+姜枣茶；满18盒送维生素C；满13盒送黑枸杞；满9盒送口罩。数量有限！",
+                    "price": "￥179.90"
+                },
+                {
+                    "src": "http://image.360kad.com/group2/M00/A8/AC/CgAgFFx-HuiAIGwDAAGFwXZQBRQ094.jpg_180x180.jpg",
+                    "name": "草之楼 乙肝灵胶囊 0.5g*12粒*3板/盒",
+                    "ad": "【快递停运，速囤年货】低至40元/盒。满20盒送维生素C；满10盒送黑枸杞；满5盒送口罩。数量有限！",
+                    "price": "￥48"
+                },
+                {
+                    "src": "http://image.360kad.com/group1/M00/1D/50/CgAgEFag7EOAJB8iAAAgAHMRteI50.jpeg",
+                    "name": "优贺丁 阿德福韦酯片 10mg*14片",
+                    "ad": "【快递停运，速囤年货】低至45元/盒。满26盒送赶黄草+姜枣茶；满18盒送维生素C；满13盒送黑枸杞；满6盒送口罩。数量有限！",
+                    "price": "￥96"
+                }
+            ]
+        },
+        {
+            "title": "性功能障碍",
+            "slogan": "你的健壮就是她的性福",
+            "con": [
+                {
+                    "src": "http://image.360kad.com/group2/M00/8E/51/CgAgFFt-KjyAP7EbAAFa1-VxzZM565.jpg_180x180.jpg",
+                    "name": "汇仁 肾宝片 0.7g*126片",
+                    "ad": "【年末特惠享不停】1盒到手价292，2盒立减60，4盒立减120，满5盒赠原品1盒再减100，2盒一疗程用量，详情咨询药师了解哦！",
+                    "price": "￥322"
+                },
+                {
+                    "src": "http://image.360kad.com/group2/M00/9B/76/CgAgFVvap2yAbYFYAAHZGVaJMoE021.jpg_180x180.jpg",
+                    "name": "广誉远 龟龄集 0.3g*30粒",
+                    "ad": "【年末特惠享不停】厂家控价，咨询药师，惊爆价！强身补脑，固肾补气，增进食欲。3盒一疗程，养生秘宝！建议按照疗程下单，详情可咨询药师~",
+                    "price": "￥598"
+                },
+                {
+                    "src": "http://image.360kad.com/group2/M00/01/0E/CgAgFFmwoeOABc9SAAEUxtsins0080.jpg_180x180.jpg",
+                    "name": "必利劲 盐酸达泊西汀片 30mg*3片",
+                    "ad": "【物流将停，最后回馈】低至184元，满2盒获得（男用湿巾+避孕套+润滑液），满4盒获得（印度神油+情趣衣+避孕套+润滑液），咨询药师再领15元特惠券！",
+                    "price": "￥280"
+                },
+                {
+                    "src": "http://image.360kad.com/group1/M00/A3/5B/CgAgEFkVSXGAGmp2AAEs5KCi3uQ117.jpg_180x180.jpg",
+                    "name": "保法止 非那雄胺片 1mg*7片*4板",
+                    "ad": "【年末特惠享不停】低至165元起！本品适用于治疗男性秃发，本店还有性价比更高的仙琚 非那雄胺片，详情咨询药师，下单更加优惠！",
+                    "price": "￥168"
+                },
+                {
+                    "src": "http://image.360kad.com/group1/M00/A6/CB/CgAgEFkjytaAPsoqAAGFImohak4596.jpg_180x180.jpg",
+                    "name": "新天夫 益肾壮阳膏 12g/支",
+                    "ad": "【温馨提示】本产品已售罄，更多相关药品请在站内搜索，或者直接咨询客服了解。",
+                    "price": "￥336"
+                }
+            ]
+        },
+        {
+            "title": "肿瘤",
+            "slogan": "联合用药，对抗肿瘤",
+            "con": [
+                {
+                    "src": "http://image.360kad.com/group2/M00/D8/91/CgAgFF3KLOaAL2LlAAGftgRl6SA359.jpg_180x180.jpg",
+                    "name": "康富来 灵芝破壁孢子粉胶囊 24g(0.2g*120粒)",
+                    "ad": "【底价返场，错过等1年】低至152元/盒，满6盒获得药箱，满4盒获得维生素C含片，满2盒获得维生素E乳。",
+                    "price": "￥298"
+                },
+                {
+                    "src": "http://image.360kad.com/group2/M00/B4/1D/CgAgFFz9riCAfvebAALAt19AkTM767.jpg_180x180.jpg",
+                    "name": "修正 复方万年青胶囊 0.4g*12粒*3板",
+                    "ad": "【底价返场，错过等1年】低至233元/盒，满22盒获得药箱，满16盒获得维生素C含片，满8盒获得维生素E乳，满4盒获得红糖姜枣茶。",
+                    "price": "￥398"
+                },
+                {
+                    "src": "http://image.360kad.com/group2/M00/9F/21/CgAgFFwE7QiAJJS_AAEhYvjOlEY393.jpg_180x180.jpg",
+                    "name": "康哲 肝复乐片 0.5g*60片",
+                    "ad": "【年货预售，抢到就是赚到】低至87元/盒，满40盒获得药箱，满30盒获得维生素C含片，满20盒获得维生素E乳，满5盒获得红糖姜枣茶。",
+                    "price": "￥118"
+                },
+                {
+                    "src": "http://image.360kad.com/group1/M00/25/32/CgAgEVb9SvCANwVVAAA8WPFdSGc607.jpg",
+                    "name": "希罗达 卡培他滨片 0.5g*12片",
+                    "ad": "【底价返场，错过等1年】低至379元/盒，满6盒获得药箱，满5盒获得维生素C含片，满3盒获得维生素E乳，满2盒获得红糖姜枣茶。",
+                    "price": "￥425"
+                },
+                {
+                    "src": "http://image.360kad.com/group2/M00/98/43/CgAgFFurINaAIisUAAGLbjbjakY824.jpg_180x180.jpg",
+                    "name": "辛喜 鸦胆子油软胶囊 0.53g*12粒*3板",
+                    "ad": "【底价返场，错过等1年】低至69元/盒，满30盒获得药箱，满20盒获得维生素C含片，满10盒获得维生素E乳，满5盒获得红糖姜枣茶。",
+                    "price": "￥113.50"
+                }
+            ]
+        },
+        {
+            "title": "心血管",
+            "slogan": "远离三高，战胜心血管疾病",
+            "con": [
+                {
+                    "src": "http://image.360kad.com/group2/M00/D3/22/CgAgFF2ypYqAduDmAADjVNPueTQ897.jpg_180x180.jpg",
+                    "name": "同溢堂 益安宁丸 112丸*3瓶",
+                    "ad": "【鼠年嗨购】咨询享受惊喜价，低至686元/盒，满6盒得康爱多药箱，满4盒得小风扇，米2盒得深海鱼油软胶囊！更多惊喜咨询药师。",
+                    "price": "￥790"
+                },
+                {
+                    "src": "http://image.360kad.com/group1/M00/07/8E/CgAgEFWKQ7WAByCFAAAZqIhJKKQ104.jpg",
+                    "name": "天草 丹参保心茶 2.5g*20袋",
+                    "ad": "【提醒】本产品已售罄，详情请站内搜索相关产品! 本店还有：天草 丹参保心茶 2.5g*180袋",
+                    "price": "￥39"
+                },
+                {
+                    "src": "http://image.360kad.com/group1/M00/11/63/CgAgEFaKKJWAOTH-AAAgAK10Nxw42.jpeg",
+                    "name": "地奥 地奥心血康软胶囊 0.35g*30粒",
+                    "ad": "【9年老店，品质保证】本店接受国家食品药品监督管理局的监督和指导，提供合规合格保证正品，详情请咨询药师了解，联系有惊喜喔！",
+                    "price": "￥35"
+                },
+                {
+                    "src": "http://image.360kad.com/group2/M00/77/13/CgAgFFsoXpOAUE0qAAEclE0umzI008.jpg_180x180.jpg",
+                    "name": "新托妥 瑞舒伐他汀钙片 10mg*7片",
+                    "ad": "【9年老店，品质保证】本品适用于原发性高胆固醇血症！详情请咨询在线药师！",
+                    "price": "￥45"
+                },
+                {
+                    "src": "http://image.360kad.com/group2/M00/D9/FF/CgAgFV3OFKGAaI__AAFh5r61PTI143.jpg_180x180.jpg",
+                    "name": "泰毕全 达比加群酯胶囊 110mg*10粒",
+                    "ad": "【9年老店，品质保证】本品少量来货，可预防存在以下一个或多个危险因素的成人非瓣性房颤患者的卒中和全身性栓塞。详情可咨询药师！",
+                    "price": "￥179"
+                }
+            ]
+        },
+        {
+            "title": "风湿",
+            "slogan": "保护关节，远离风湿病痛",
+            "con": [
+                {
+                    "src": "http://image.360kad.com/group1/M00/0E/ED/CgAgEVZsTJqAaYFhAAAgALODC8o60.jpeg",
+                    "name": "爱若华 来氟米特片 10mg*10片",
+                    "ad": "【迎新辞旧】暖冬送礼，低至65元！满9盒送远红外治疗贴+红花油，满6盒送蛇油护手霜。数量有限，送完即止！更多优惠详情，请咨询药师了解！",
+                    "price": "￥71.50"
+                },
+                {
+                    "src": "http://image.360kad.com/group1/M00/3D/08/CgAgEVeEiPqANCWaAAGv7vex3dU012.jpg_180x180.jpg",
+                    "name": "莫比可 美洛昔康片 7.5mg*7片",
+                    "ad": "【迎新辞旧】暖冬送礼，低至19.5元！本品用于骨关节炎症状加重时的短期症状治疗。 类风湿性关节炎和强直性脊柱炎的长期症状治疗。",
+                    "price": "￥25"
+                },
+                {
+                    "src": "http://image.360kad.com/group1/M00/89/83/CgAgEVimoHWAVNmjAAHM1bRI8BA769.jpg_180x180.jpg",
+                    "name": "陈李济 昆仙胶囊 0.3g*30粒",
+                    "ad": "【温馨提醒】本产品已售罄，详情请站内搜索相关产品! 本店还有：陈李济 昆仙胶囊 0.3g*12粒。",
+                    "price": "￥265"
+                },
+                {
+                    "src": "http://image.360kad.com/group2/M00/7F/C5/CgAgFVtH-xSAUtK7AAEeXzsiCog876.jpg_180x180.jpg",
+                    "name": "艾得辛 艾拉莫德片 25mg*14片",
+                    "ad": "【迎新辞旧】暖冬送礼，低至195元！满9盒送远红外治疗贴+红花油，满6盒送蛇油护手霜，满3盒送麝香止痛膏。数量有限，送完即止！",
+                    "price": "￥238"
+                },
+                {
+                    "src": "http://image.360kad.com/group1/M00/67/4B/CgAgEVgGxSCAQ9jvAAHIO-R6mEU127.jpg_180x180.jpg",
+                    "name": "双蚁 双蚁祛湿通络胶囊 0.4g*12粒*3板*3小盒",
+                    "ad": "【温馨提醒】本产品已售罄，详情请站内搜索相关产品。本店。修正 骨骼风痛片 0.31g*12片*9板。",
+                    "price": "￥188"
+                }
+            ]
+        }
+    ]
+}

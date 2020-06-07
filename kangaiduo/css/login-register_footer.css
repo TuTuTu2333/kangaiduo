@@ -1,0 +1,27 @@
+.footer {
+    width: 100%;
+    padding: 30px 0;
+}
+.footer-container {
+    width: 980px;
+    margin: 0 auto;
+}
+.footer-about a {
+    color: #666;
+    position: relative;
+}
+
+.footer-about a.pifa_shop span {
+    background: url(../img/pifa_new.png);
+    width: 23px;
+    height: 10px;
+    display: inline-block;
+    position: absolute;
+    top: -7px;
+    left: 27px;
+}
+.footer-container a:hover{
+    color: #f00;
+    text-decoration: underline #f00;
+}
+

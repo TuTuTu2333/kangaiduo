@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/html-header.css">
+    <link rel="stylesheet" href="../css/fixed_navigation.css">
+    <link rel="stylesheet" href="../css/html-footer.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/md5.js"></script>
+    <script src="../js/Cookie.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/header_footer.js"></script>
+    <script src="../js/fixed_navigation.js"></script>
+
+</head>
+
+<body>
+    <div class="top_img"><img src="http://image.360kad.com/group2/M00/AB/D1/CgAgFVycGTCAKf0EAADo6l4Xvv4004.jpg" alt="">
+    </div>
+    <div class="header_top">
+        <div class="header_t">
+            <div class="header_t_l">
+                <div class="YnewNoLogin showNoLogin">欢迎来到康爱多网上药店！
+                    <a href="http://127.0.0.1/H51913/myProject1/kangaiduo/html/login.html">登录</a>
+                    <a href="http://127.0.0.1/H51913/myProject1/kangaiduo/html/register.html">注册</a>
+                </div>
+                <ul class="YnewYesLogin showYesLogin">
+                    <li>欢迎回来！</li>
+                    <li class="YUserName"></li>
+                    <li class="Yout">
+                        <a href="http://127.0.0.1/H51913/myProject1/kangaiduo/html">注销</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header_t_r">
+                <ul class="hNavList">
+                    <li class="Ywebnav Yhover">
+                        <span class="Ycen"></span>
+                        <span class="Yico_dian"></span>
+                        <span class="tlast">网站导航</span>
+                        <div class="Ytopnavdiv">
+                            <dl>
+                                <dt>特色频道</dt>
+                                <dd><a href="#">男科中心</a></dd>
+                                <dd><a href="#">医疗器械</a></dd>
+                            </dl>
+                            <dl class="d2">
+                                <dt>健康工具</dt>
+                                <dd><a href="#">掌上药店</a></dd>
+                                <dd><a href="#">自助找药</a></dd>
+                            </dl>
+                            <dl>
+                                <dt>健康知多点</dt>
+                                <dd>
+                                    <a href="#">健康指南</a>
+                                </dd>
+                                <dd><a href="#">肝胆科</a></dd>
+                                <dd><a href="#">皮肤科</a></dd>
+                                <dd><a href="#">呼吸科</a></dd>
+                                <dd><a href="#">减肥瘦身</a></dd>
+                                <dd><a href="#">两性健康</a></dd>
+                                <dd><a href="#">妇科</a></dd>
+                                <dd><a href="#">母婴</a></dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li class="YService Yhover">
+                        <span class="Ycen"></span>
+                        <span class="Yico_dian"></span>
+                        <span class="tlast">客户服务</span>
+                        <div class="Ytopnavdiv">
+                            <dl class="Ymykadc">
+                                <dd><a href="#">帮助中心</a></dd>
+                                <dd><a href="#">联系我们</a></dd>
+                                <dd><a href="#">投诉建议</a></dd>
+                                <dd><a href="#">厂商合作</a></dd>
+                            </dl>
+                        </div>
+
+                    </li>
+                    <li class="ttel">400-8811-020</li>
+                    <li class="tcart">
+                        <a href="http://127.0.0.1/H51913/myProject1/kangaiduo/html/cart.html">购物车
+                            <span style="color:red;padding:0;font-weight:bold;">0</span>
+                        </a>
+                    </li>
+                    <li class="Ymyorder Yhover">
+                        <span class="Ycen"></span>
+                        <span class="Yico_dian"></span>
+                        <a href="#" class="tlast">我的订单</a>
+                        <div class="Ytopnavdiv">
+                            <dl class="Ymyorderc">
+                                <dd><a href="#">待付款订单</a></dd>
+                                <dd><a href="#">待确认收货</a></dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li class="Ymykad Yhover">
+                        <span class="Ycen"></span>
+                        <span class="Yico_dian"></span>
+                        <a href="#" class="tlast">我的康爱多</a>
+                        <div class="Ytopnavdiv">
+                            <dl class="Ymykadc">
+                                <dd><a href="#">我的处方</a></dd>
+                                <dd><a href="#">我的收藏</a></dd>
+                                <dd><a href="#">收货地址</a></dd>
+                            </dl>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="header-center">
+        <div class="header_l">
+            <div class="header_logo">
+                <a href="http://127.0.0.1/H51913/myProject1/kangaiduo/html/">
+                    <img src="http://res.360kad.com/theme/default/img/product/360kad.jpg" alt="">
+                </a>
+                <p>
+                    <img src="https://res.360kad.com/theme/default/img/2014NewWeb/autoSlogo.gif?nbvd" alt="">
+                </p>
+            </div>
+        </div>
+
+        <div class="header_r">
+            <div class="header_search">
+                <input type="text" class="stxt">
+                <input type="text" class="sbtn" value="搜索">
+                <div class="search_history">
+                    <div class="search_history_l">
+                        <div class="y_history">
+                            <p class="search_history_t">历史纪录
+                                <!-- <span><a href="#">清空</a></span> -->
+                            </p>
+                            <!-- <ul class="s_historylist">
+                                <li>
+                                    <a href="#">血压计</a>
+                                    <span>x</span>
+                                </li>
+                            </ul> -->
+                            <div class="no_history">
+                                <p><img src="http://res.360kad.com/theme/default/img/user/2015/kk-pic01.gif" alt=""></p>
+                                <p>亲，您还没有历史记录哦</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search_history_r">
+                        <p>正在热搜中：</p>
+                        <div class="s_history_r">
+                            <a href="#">匹多莫德</a>
+                            <a href="#">前列腺炎</a>
+                            <a href="#">胎心仪</a>
+                            <a href="#">皮肤性病</a>
+                            <a href="#">乙肝</a>
+                            <a href="#">阿胶</a>
+                            <a href="#">右归丸</a>
+                            <a href="#">麒麟丸</a>
+                            <a href="#">增强免疫</a>
+                            <a href="#">飞机杯</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header_r_d">
+                <a href="#">家庭常备</a>
+                <a href="#" style="color:red">滋补养生</a>
+                <a href="#" style="color:#959595">痔在必除</a>
+                <a href="#">男得好货</a>
+                <a href="#" style="color:red">拼团低至8.8元</a>
+                <a href="#">体检卡</a>
+            </div>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="navc">
+            <div class="categorys">
+                <h2><a href="#">全部分类</a></h2>
+            </div>
+            <div class="lNav"></div>
+            <ul class="navclist">
+                <li class="li1"><a href="http://127.0.0.1/H51913/myProject1/kangaiduo/html/">首页</a></li>
+                <li class="li2"><a href="http://127.0.0.1/H51913/myProject1/kangaiduo/html/medicine.html">药品</a></li>
+                <li class="li3"><a href="http://127.0.0.1/H51913/myProject1/kangaiduo/html/nonMedicine.html">非药品</a>
+                </li>
+                <li class="li4"><a href="http://127.0.0.1/H51913/myProject1/kangaiduo/html/maleCenter.html">男科中心</a>
+                </li>
+                <li class="li5"><a href="#">美肤商城</a></li>
+                <li class="li6"><a href="#">器械商城</a></li>
+                <li class="li7" style="width:2px;">
+                    <span>
+                        <img src="http://res.360kad.com/theme/default/img/product/2016new/rightBorder.jpg" alt="">
+                    </span>
+                </li>
+                <li class="kad-mc-ask">
+                    <a href="#">资讯中心</a>
+                    <i class="aski pst-i1"></i>
+                    <div class="kad-mc-askBox" id="kad-mc-askBox1">
+                        <a href="#" class="pl16">健康指南</a>
+                        <a href="#">健康资讯</a>
+                        <a href="#" class="pl16">皮肤科资讯</a>
+                        <a href="#">呼吸科资讯</a>
+                        <a href="#" class="pl16">妇科资讯</a>
+                        <a href="#">减肥瘦身</a>
+                        <a href="#" class="pl16">两性健康</a>
+                        <a href="#">健康问答</a>
+                    </div>
+                </li>
+                <li class="li8"><a
+                        href="http://127.0.0.1/H51913/myProject1/kangaiduo/html/chronicDiseaseSpecial.html">慢性病专场</a>
+                </li>
+                <li class="kad-mc-ask">
+                    <a href="#">掌上康爱多</a>
+                    <i class="aski pst-i2"></i>
+                    <div class="kad-mc-askBox" id="kad-mc-askBox">
+                        <img src="http://res.360kad.com/theme/default/img/product/2016new/hand.png?v201608" alt="">
+                        <p class="fistP">4件装仅9.9元</p>
+                        <p class="secendP">APP首单减10元</p>
+                        <img src="http://res.360kad.com/theme/default/img/product/2018new/hand2.jpg?54" alt="">
+                        <p class="fistP">关注微信</p>
+                        <p class="secendP">抽现金红包</p>
+                    </div>
+                </li>
+                <li class="li9"><a href="#">超值秒杀</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="middleSide" style="width: 100%;">
+        <div class="scroll_container">
+            <ul>
+                <li class="fir01 current"><a href="#" class="fadeBox"><img
+                            src="https://image.360kad.com/group2/M00/E9/59/CgAgFF4YRXWAAWZ_AAJrdGgYUPQ600.jpg"
+                            alt=""></a></li>
+                <li class="fir02"><a href="#" class="fadeBox"><img
+                            src="https://image.360kad.com/group2/M00/E9/C2/CgAgFV4cN82AKPX8AAG0iZVbNJk024.jpg"
+                            alt=""></a></li class="fir01">
+                <li class="fir03"><a href="#" class="fadeBox"><img
+                            src="https://image.360kad.com/group2/M00/E9/BF/CgAgFF4cJD6AaFJcAAGCGIBj3H8563.jpg"
+                            alt=""></a></li class="fir01">
+                <li class="fir04"><a href="#" class="fadeBox"><img
+                            src="https://image.360kad.com/group2/M00/E9/BF/CgAgFV4cI9uAc-wRAAFTZgogGZU854.jpg"
+                            alt=""></a></li class="fir01">
+                <li class="fir05"><a href="#" class="fadeBox"><img
+                            src="https://image.360kad.com/group2/M00/E9/B3/CgAgFV4bv5aAfjmCAAJ5PveFd0g784.jpg"
+                            alt=""></a></li class="fir01">
+                <li class="fir06"><a href="#" class="fadeBox"><img
+                            src="https://image.360kad.com/group2/M00/E9/57/CgAgFF4YOYqAFhd9AAFYQQrbUS0290.jpg"
+                            alt=""></a></li class="fir01">
+                <li class="fir07"><a href="#" class="fadeBox"><img
+                            src="https://image.360kad.com/group2/M00/E9/35/CgAgFV4X_lyAW_FLAAJ_QNnjGc8091.jpg"
+                            alt=""></a></li class="fir01">
+                <li class="fir08"><a href="#" class="fadeBox"><img
+                            src="https://image.360kad.com/group2/M00/EA/4D/CgAgFV4f1aCANp7fAAMMTcstUfE433.jpg"
+                            alt=""></a></li class="fir01">
+            </ul>
+            <p id="scroll_num">
+                <span class="act"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </p>
+            <p class="btn">
+                <span class="clickBtn prevBtn"></span>
+                <span class="clickBtn nextBtn"></span>
+            </p>
+        </div>
+    </div>
+    <div class="rightSide">
+        <div class="msg_rightSide">
+            <ul>
+                <li>
+                    <img src="http://res.360kad.com/theme/default/img/product/2016new/zheng1.png" alt="">
+                    <p>正品保证</p>
+                </li>
+                <li>
+                    <img src="http://res.360kad.com/theme/default/img/product/2016new/zheng2.png" alt="">
+                    <p>专业药师</p>
+                </li>
+                <li>
+                    <img src="http://res.360kad.com/theme/default/img/product/2016new/sou.png" alt="">
+                    <p>厂家授权 </p>
+                </li>
+                <li>
+                    <img src="http://res.360kad.com/theme/default/img/product/2016new/zheng4.png" alt="">
+                    <p>隐私包装</p>
+                </li>
+                <li>
+                    <img src="http://res.360kad.com/theme/default/img/product/2016new/zheng5.png" alt="">
+                    <p>货到付款</p>
+                </li>
+                <li>
+                    <img src="http://res.360kad.com/theme/default/img/product/2016new/zheng3.png" alt="">
+                    <p>满79包邮</p>
+                </li>
+            </ul>
+        </div>
+        <div class="yaozi">
+            <table>
+                <tr>
+                    <td><span class="zixunY">药师咨询</span></td>
+                    <td><span class="phoneN">400-8811-020</span></td>
+                </tr>
+            </table>
+        </div>
+        <div class="Sinfor">
+            <a href="#">监管信息发布</a>
+        </div>
+        <div class="kadN_msg">
+            <a href="#"><img src="http://image.360kad.com/group2/M00/D8/34/CgAgFV3JLYSAcaNzAABCbkCYe7M957.jpg"
+                    alt=""></a>
+        </div>
+    </div>
+
+    <div class="mainBody_box">
+        <div class="fixed"></div>
+        <div class="hotPro">
+            <div class="hotProHeader">
+                <h3>超值秒杀</h3>
+                <div class="hotProM">
+                    <p class="seckill_p2"></p>
+                </div>
+                <div class="hotProR">
+                    <div class="hotPage">
+                        <b>1</b>
+                        <b>/</b>
+                        <b>2</b>
+                    </div>
+                    <div class="direction">
+                        <span class="r">
+                            <img src="http://res.360kad.com/theme/default/img/product/2016new/rightIcon.png" alt="">
+                        </span>
+                        <span class="s">
+                            <img src="http://res.360kad.com/theme/default/img/product/2016new/leftIcon.png" alt="">
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div id="hotProC"></div>
+        </div>
+        <div class="changeP">
+            <h3>健康推荐</h3>
+            <span class="changeBtn">换一批
+                <img src="http://res.360kad.com/theme/default/img/product/2016new/changbtn2.jpg" alt="">
+            </span>
+            <ul></ul>
+        </div>
+        <div class="ad1">
+            <img src="https://image.360kad.com/group2/M00/E8/E1/CgAgFV4VOi2AXorhAAF4xtiHvKU404.jpg" alt="">
+        </div>
+        <div class="floorBox"></div>
+        <div class="hotBrand">
+
+        </div>
+    </div>
+
+    <div class="wrap_footer" style="width: 100%;">
+        <div class="item01">
+            <div class="width1200">
+                <dl>
+                    <dd>
+                        <img src="http://res.360kad.com/theme/default/img/product/2016new/zheng1.png" alt="">
+                        <div class="medicineWorld">
+                            <p class="t">正品保障</p>
+                            <p>国家认证 正规合法</p>
+                        </div>
+                    </dd>
+                    <dd>
+                        <img src="http://res.360kad.com/theme/default/img/product/2016new/zheng2.png" alt="">
+                        <div class="medicineWorld">
+                            <p class="t">专业药师</p>
+                            <p>用药全程指导</p>
+                        </div>
+                    </dd>
+                    <dd>
+                        <img src="http://res.360kad.com/theme/default/img/product/2016new/sou.png" alt="">
+                        <div class="medicineWorld">
+                            <p class="t">厂家授权</p>
+                            <p>国家认证 正规合法</p>
+                        </div>
+                    </dd>
+                    <dd>
+                        <img src="http://res.360kad.com/theme/default/img/product/2016new/zheng5.png" alt="">
+                        <div class="medicineWorld">
+                            <p class="t">货到付款</p>
+                            <p>货到付款 购药无忧</p>
+                        </div>
+                    </dd>
+                    <dd>
+                        <img src="http://res.360kad.com/theme/default/img/product/2016new/zheng4.png" alt="">
+                        <div class="medicineWorld">
+                            <p class="t">隐私配送</p>
+                            <p>安全放心 隐私配送</p>
+                        </div>
+                    </dd>
+                    <dd style="padding-right:0;">
+                        <img src="http://res.360kad.com/theme/default/img/product/2016new/zheng3.png" alt="">
+                        <div class="medicineWorld">
+                            <p class="t"> 满79元包邮</p>
+                            <p> 全场满79元包邮</p>
+                        </div>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+
+        <div class="item01 item02">
+            <div class="width1200 clearfix">
+                <div class="lside">
+                    <div class="appCode">
+                        <p class="title">手机购药</p>
+                        <p class="code1"></p>
+                        <p class="clearfix pl8">注册送100元</p>
+                    </div>
+                    <div class="weixinCode">
+                        <p class="title">手机购药</p>
+                        <p class="code2">
+                        </p>
+                        <p class="title02" style="width:106px;margin:0;">注册送100元</p>
+                    </div>
+                </div>
+                <div class="mside">
+                    <ul class="clearfix">
+                        <li>
+                            <p class="title">新手指南</p>
+                            <p><a href="#">购物流程</a></p>
+                            <p><a href="#">会员级别</a></p>
+                            <p><a href="#">积分说明</a></p>
+                            <p><a href="#">优惠券</a></p>
+                            <p><a href="#">常见问题</a></p>
+                        </li>
+                        <li>
+                            <p class="title">配送方式</p>
+                            <p><a href="#">配送范围及运费</a></p>
+                            <p><a href="#">隐私配送</a></p>
+                            <p><a href="#">商品验收及签收</a></p>
+                        </li>
+                        <li>
+                            <p class="title">支付方式</p>
+                            <p><a href="#">货到付款</a></p>
+                            <p><a href="#">网上支付</a></p>
+                            <p><a href="#">药店自提</a></p>
+                        </li>
+                        <li>
+                            <p class="title">售后服务</p>
+                            <p><a href="#">退换货流程</a></p>
+                            <p><a href="#">退换货政策</a></p>
+                            <p><a href="#">退款流程</a></p>
+                        </li>
+                        <li>
+                            <p class="title">特色服务</p>
+                            <p><a href="#">会员俱乐部</a></p>
+                            <p><a href="#">投诉建议</a></p>
+                            <p><a href="#">健康咨询</a></p>
+                            <p><a href="#">免责声明 </a></p>
+                        </li>
+                        <li class="phonePic">
+                            <p>
+                                <img src="http://res.360kad.com/theme/default/img/product/2016new/kadPhoneBg.png"
+                                    alt="">
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_list" style="width: 100%;">
+        <div class="width1200">
+            <p>
+                <span class="title">政府机构：</span>
+                <a href="#">国家卫生健康委员会</a>
+                <a href="#">国家市场监督管理总局</a>
+                <a href="#">广东省卫生健康委员会</a>
+                <a href="#">广东省药品监督管理局</a>
+                <a href="#">国家药品监督管理局</a>
+                <a href="#">广东省市场监督管理局</a>
+            </p>
+            <p class="clearfix friendLinks" style="height: 22px;">
+                <span class="title fl"></span>
+                <span class="friendList fl linkBox">
+                    <a href="#">环球医药招商网</a>
+                    <a href="#">皮肤病</a>
+                    <a href="#">药品文章</a>
+                    <a href="#">医药招商网</a>
+                    <a href="#">中华康网</a>
+                    <a href="#">69健康</a>
+                    <a href="#">中药材</a>
+                    <a href="#">医学百科</a>
+                    <a href="#">PCbaby母婴用品</a>
+                    <a href="#">康强网</a>
+                    <a href="#">妈妈网论坛</a>
+                    <a href="#">三九养生堂</a>
+                    <a href="#">有问必答网知识库</a>
+                    <a href="#">药品网</a>
+                    <a href="#">悦美网</a>
+                    <a href="#">中医网</a>
+                    <a href="#">医学全在线</a>
+                    <a href="#">减肥</a>
+                    <a href="#">爱靓网时尚女性</a>
+                    <a href="#">新互联医药网</a>
+                    <a href="#">养生网</a>
+                    <a href="#">放心医苑网</a>
+                    <a href="#">寻医问药健康网</a>
+                    <a href="#">掌上药店</a>
+                    <a href="#">健康问答</a>
+                    <a href="#">十二药网网上药店</a>
+                    <a href="#">药品价格315网</a>
+                    <a href="#">39健康网药品频道</a>
+                    <a href="#">心理咨询</a>
+                    <a href="#">医学教育网</a>
+                    <a href="#">康德乐大药房</a>
+                    <a href="#">网上药店</a>
+                    <a href="#">八百方网上药店</a>
+                    <a href="#">医联媒体</a>
+                </span>
+            </p>
+            <p class="aboutKadList">
+                <a href="#" class="pifa_shop">批发商洽<span></span></a> |
+                <a href="#">关于我们</a> |
+                <a href="#">掌上药店</a> |
+                <a href="#">实体药店</a> |
+                <a href="#">加入康爱多</a> |
+                <a href="#">联系我们</a> |
+                <a style="display:none" href="#">厂商合作</a>
+                <a href="#">经营认证</a> |
+                <a href="#">隐私政策</a> |
+                <a href="#">友情链接</a> |
+                <a href="#">TAG列表</a>
+                <a href="#">网站地图</a> |
+                <a href="#">CPS联盟</a>
+            </p>
+            <p class="diploma_list" style="padding-bottom:0px">
+                <a class="pr8" title="互联网药品交易服务资格证书" href="#">互联网药品交易服务资格证书</a>|
+                <span class="bottomPadding01">
+                    <a title="互联网药品信息服务资格证书" href="#">互联网药品信息服务资格证书</a>
+                </span>|
+                <span class="bottomPadding01">
+                    <a title="执业药师证" href="#">执业药师证</a>
+                </span>|
+                <span class="bottomPadding02">
+                    <a title="药品经营许可证" href="#">药品经营许可证</a>
+                </span>|
+                <span class="bottomPadding02">
+                    <a title="食品经营许可证" href="#">食品经营许可证</a>
+                </span>|
+                <span class="bottomPadding02">
+                    <a title="公司营业执照" href="#">公司营业执照</a>
+                </span>|
+                <span>
+                    <a title="GSP认证证书" href="#">GSP认证证书</a>
+                </span>|
+            </p>
+            <p class="diploma_list" style="padding-bottom:0px">
+                <span class="bottomPadding01">
+                    <a title="互联网药品信息服务资格证书" href="#">增值电信业务经营许可证 </a>
+                </span>|
+                <span class="bottomPadding01">
+                    <a title="执业药师证" href="#">医疗器械经营许可证</a>
+                </span>|
+                <span class="bottomPadding02">
+                    <a title="药品经营许可证" href="#">第二类医疗器械经营备案凭证</a>
+                </span>|
+                <span class="bottomPadding02">
+                    <a title="食品经营许可证" href="#">医疗器械网络销售备案</a>
+                </span>|
+            </p>
+            <p class="diploma_list">
+                <span class="bottomPadding01">
+                    <a title="互联网药品信息服务资格证书" href="#">国家市场监督管理总局-数据查询 </a>
+                </span>|
+                <span class="bottomPadding01">
+                    <a title="执业药师证" href="#">广东省药品监督管理局-数据库查询</a>
+                </span>|
+            </p>
+            <ul class="hyRz clearfix">
+                <li>
+                    <a href="#" title="粤ICP备10212320号-1">
+                        <img src="http://res.360kad.com/theme/default/img/tool_icon1.png" alt="粤ICP备10212320号-1">
+                    </a>
+                    <a class="txt" title="粤ICP备10212320号-1" href="#">粤ICP备10212320号-1</a>
+                </li>
+                <li>
+                    <a href="#" title="网络110报警服务">
+                        <img src="http://res.360kad.com/theme/default/img/tool_icon2.png" alt="网络110报警服务">
+                    </a>
+                    <a class="txt item01" title="网络110报警服务" href="#">
+                        网络110报警服务
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" title="红盾电子链接标识">
+                        <img data-original="//res.360kad.com/theme/default/img/tool_icon5.jpg"
+                            src="http://res.360kad.com/theme/default/img/tool_icon5.jpg" alt=""
+                            style="display: inline;">
+                    </a>
+                    <a class="txt item01 item02" title="红盾电子链接标识" href="#">
+                        红盾电子链接标识
+                    </a>
+                </li>
+                <li>
+                    <a key="5491366eefbfb06e545f4a75" logo_size="83x30" logo_type="common" href="#">
+                        <img src="http://static.anquan.org/static/outer/image/aqkx_83x30.png?id=www.360kad.com?t=8"
+                            alt="">
+                    </a>
+                </li>
+                <li>
+                    <a key="51c2d63c6856be2ce1761dce" logo_size="83x30" logo_type="business" href="#">
+                        <span style="display:none;" class="LOGO_aq_jsonp_wrap_" id="AQ_logo_span_init_2"></span>
+                        <img src="http://res.360kad.com/theme/default/img/hy_83x30.png" alt="安全联盟认证" width="83"
+                            height="30">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="http://res.360kad.com/theme/default/img/beian.png" alt="粤公网安备 44011102001321号"
+                            width="30" height="30">
+                        <span class="yueText">粤公网安备 44011102001321号</span>
+                    </a>
+                </li>
+            </ul>
+            <p class="bottom">&copy;2010-2020 广东<a href="http://www.360kad.com">康爱多网上药店</a>版权所有，并保留所有权利</p>
+        </div>
+    </div>
+<!-- 
+        爬取数据
+        var oLi = document.querySelectorAll("#hotProC ul li");
+        var arr=[];
+        for (var i = 0; i < oLi.length; i++) {
+            var obj={};
+            obj.zhe = oLi[i].querySelector(".zheS").innerText;
+            obj.src = oLi[i].querySelector("p a img").src;
+            obj.name = oLi[i].querySelector(".secentLi a").innerText;
+            obj.newPrice = oLi[i].querySelector(".newPrice").innerText;
+            obj.oldPrice = oLi[i].querySelector(".oldPrice").innerText;
+            arr.push(obj)
+        }
+        console.log(JSON.stringify(arr));
+
+
+        var arr = [];
+        $(".floor").each(function () {
+            var obj = {};
+            obj.title = $(this).find(".louHeader .louN").text();
+            var dd = []
+            $(this).find("dl dd a").each(function () {
+                dd.push($(this).text())
+            });
+            obj.keys = dd;
+            var list = [];
+            $(this).find(".contextL .louLink ul li").each(function () {
+                list.push($(this).text());
+            })
+            obj.links = list;
+            var logo = [];
+            $(this).find(".louLogo ul li").each(function () {
+                logo.push($(this).find("img").attr("src"));
+            });
+            obj.logoSrc = logo;
+            var sliSrc = [];
+            $(this).find(".switchB ul li").each(function () {
+                sliSrc.push($(this).find("img").attr("src"));
+            });
+            obj.sliderSrc = sliSrc;
+            var product = [];
+            $(this).find(".contextR ul li").each(function () {
+                if ($(this).index() == 0) {
+                    obj.rSrc = $(this).find("img").attr("src");
+                }               
+                if ($(this).index() >= 1) {
+                    var o = {};
+                    o.picSrc = $(this).find(".pic img").attr("src");
+                    o.proName = $(this).find(".proName").text();
+                    o.proNumber = $(this).find(".proNumber").text();
+                    o.proPrice = $(this).find(".proPrice").text();
+                    product.push(o);
+                }    
+            });
+            obj.product = product;
+            arr.push(obj);
+        })
+        console.log(JSON.stringify(arr)); -->
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/login-register_footer.css">
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/md5.js"></script>
+    <script src="../js/Cookie.js"></script>
+    <script src="../js/login.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="header-list1">
+            <span><a href="http://127.0.0.1/H51913/myProject1/kangaiduo/html"><img src="https://res.360kad.com/theme/user/img/login_logo.jpg" alt=""></a></span>
+            <p><img src="https://res.360kad.com/theme/default/img/user/2015/autoSlogo.gif" alt=""></p>
+        </div>
+        <div class="header-list2">欢迎登录</div>
+    </div>
+    <div class="con">
+        <div class="box">
+            <div class="left">
+                <img src="../img/01.jpg" alt="">
+            </div>
+            <div class="container-right">
+                <div class="container-right-wrap">
+                    <span class="container-ewm">
+                        <img src="https://res.360kad.com/theme/user/img/login_ewm.jpg" alt="">
+                    </span>
+                    <h3 class="login-title">欢迎登录</h3>
+                    <p class="login-prompt clearfix" style="display: none;">
+                        <i class="prompt-icon"></i>
+                        <span class="prompt-size">公共场所不建议免登录，以防账号丢失，造成不必要损失</span>
+                    </p>
+                    <div class="login-input clearfix">
+                        <i class="input-icon"></i>
+                        <input type="text" class="Linput" id="login_user" placeholder="请输入用户名/手机号码/邮箱" value="">
+                    </div>
+                    <div class="prompt-wrap">
+                        <p class="input-prompt clearfix">
+                            <i class="prompt-icon"></i>
+                            <span class="prompt-size"></span>
+                        </p>
+                    </div>
+                    <div class="login-input pwd-input clearfix">
+                        <i class="input-icon"></i>
+                        <input type="password" class="Linput" id="login_pwd" placeholder="请输入您的密码" value="">
+                    </div>
+                    <div class="prompt-wrap">
+                        <p class="input-prompt clearfix">
+                            <i class="prompt-icon"></i>
+                            <span class="prompt-size"></span>
+                        </p>
+                    </div>
+                    <p class="login-select clearfix">
+                        <input type="checkbox" class="Cinput">
+                        <span>3天免登录</span>
+                    </p>
+                    <a href="#" class="login-btn" id="btn">登&nbsp;&nbsp;&nbsp;&nbsp;录</a>
+                    <p class="login-register clearfix">
+                        <a href="./register.html" class="register-left">免费注册></a>
+                        <a href="#" class="register-right">忘记密码？</a>
+                    </p>
+                    <div class="login-order">
+                        <div class="order-title">
+                            <span class="order-size">使用合作网站帐号登录康爱多</span>
+                            <div class="order-cont">
+                                <ul class="clearfix">
+                                    <li class="li1"><a href="#"></a></li>
+                                    <li class="li2"><a href="#"></a></li>
+                                    <li class="li3"><a href="#"></a></li>
+                                    <li class="li4"><a href="#"></a></li>
+                                    <li class="li5"><a href="#"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="login-agreement">
+                        登录即代表您已同意
+                        <a href="#" class="login_agreement_link">《康爱多隐私政策》</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="foot"></div>
+    <script>
+        $(() => {
+            $("#foot").load("login-register_footer.html .footer")
+        })
+    </script>
+</body>
+
+</html>

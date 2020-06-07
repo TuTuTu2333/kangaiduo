@@ -1,0 +1,206 @@
+.Yright {
+    width: 990px;
+    margin: auto;
+}
+
+.Yright .YproList2 {
+    overflow: hidden;
+    width: 990px;
+}
+
+.Yright .YproList2 ul {
+    line-height: 18px;
+    color: #666666;
+    width: 1000px;
+}
+
+.Yright .YproList2 ul li {
+    float: left;
+    padding: 0px 10px 10px 0px;
+    width: 240px;
+    min-height: 300px;
+}
+
+.Yright .YproList2 ul li>div {
+    border: 2px solid #fff;
+    padding: 10px 8px 0px;
+    width: 220px;
+    height: 270px;
+}
+
+.Yright .YproList2 ul li>div:hover {
+    border: 2px solid #f00;
+}
+
+.Yright .YproList2 ul li .Ypic {
+    text-align: center;
+    width: 180px;
+    height: 180px;
+    position: relative;
+}
+
+.Yright .YproList2 ul a {
+    display: inline-block;
+    margin-left: 18px;
+    color: #666666;
+}
+
+.Yright .YproList2 ul li .Ypic a img {
+    width: 180px;
+    height: 180px;
+}
+
+.Yright .YproList2 ul li .Ypic .yin_ico {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+
+.Yright .YproList2 ul li .Ypic .yin_ico:hover {
+    display: block;
+}
+
+.Yright .YproList2 ul li .Yname {
+    padding-top: 8px;
+    height: 20px;
+
+}
+
+.Yright .YproList2 ul li .Yname a {
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ico_otc,
+.ico_otcl,
+.ico_rx,
+.ico_baoj {
+    background: url(http://res.360kad.com/theme/default/img/2014NewWeb/ico-kad.png) 0px -568px;
+    width: 34px;
+    margin: 2px 5px 0px 0px;
+    height: 16px;
+    display: inline-block;
+    text-indent: -10em;
+    overflow: hidden;
+    float: left;
+}
+
+.ico_rx {
+    background-position: 0 -463px;
+}
+
+.Yright .YproList2 ul a {
+    color: #666666;
+}
+
+.Yright .YproList2 ul li .Yname .Yspec {
+    padding-left: 5px;
+}
+
+.Yright .YproList2 ul li .Yadv {
+    clear: both;
+    padding-top: 5px;
+    height: 18px;
+    overflow: hidden;
+}
+
+.Yright .YproList2 ul li .Ypribox {
+    padding-top: 5px;
+}
+
+.Yright .YproList2 ul li .Ypribox span {
+    float: left;
+    color: #ff3f3f;
+    font: 16px/18px "微软雅黑";
+}
+
+.Yright .YproList2 ul li .Ypribox i {
+    font-style: normal;
+    float: right;
+    text-decoration: line-through;
+}
+
+.RMB {
+    font-family: Arial, Verdana, "宋体";
+}
+
+.pageList {
+    width: 1200px;
+    height: 50px;
+    margin: auto;
+    padding-left: 455px;
+    padding-top: 10px;
+    clear: both;
+    overflow: hidden;
+}
+
+.pageList a,
+.pageList span {
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    float: left;
+    display: block;
+    overflow: hidden;
+    padding: 3px;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    min-width: 25px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.pageList a:hover,
+.pageList_Current {
+    background-color: #278DE1;
+    color: white;
+}
+
+.pageList .pageList_Hidden {
+    border: none;
+    cursor: default;
+}
+
+.pageList .pageList_Hidden:hover {
+    background-color: transparent;
+}
+
+.pageList input.jumpNum {
+    width: 30px;
+    border: 1px solid #8c8c8c;
+    float: left;
+    width: 35px;
+    height: 25px;
+    margin-left: 5px;
+    line-height: 25px;
+    padding: 3px;
+    text-align: center;
+}
+
+.pageList a.jumpText {
+    border: none;
+    background: none;
+    outline: none;
+    margin-left: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+.pageList a.jumpText:hover {
+    color: #f00;
+}
+
+#header {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+#foot {
+    margin-top: 30px;
+    width: 100%;
+}

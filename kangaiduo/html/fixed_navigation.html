@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/fixed_navigation.css">
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/md5.js"></script>
+    <script src="../js/Cookie.js"></script>
+    <script src="../js/fixed_navigation.js"></script>
+</head>
+
+<body>
+    <div class="fixed_navigation">
+        <div class="online_kefu_container">
+            <ul>
+                <li class="clearfix kefu-li1" style="background-position: 12px -772px;">
+                    <a href="#">售前咨询</a>
+                    <i class="pointers"></i>
+                </li>
+                <li class="clearfix kefu-li2" style="background-position: 12px -772px;">
+                    <a href="#">售后咨询</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- left 202-->
+        <div class="navi_left bg_color" style="padding-top: 100px;">
+            <!-- <div class="double11-top"></div> -->
+            <div class="online_kefu"></div>
+            <div class="cart_box commonWidth">
+                <span id="singleNum" style="display: none;">1</span>
+                <span class="kad-cartNums">0</span>
+            </div>
+            <div class="my_mr">
+                <div class="my_mr_inner"></div>
+                <p class="my_mr_container">
+                    <a href="#">需求清单</a>
+                </p>
+                <i class="pointer"></i>
+            </div>
+            <div class="my_Info commonWidth">
+                <p class="my_Info_container">
+                    <a href="#">我的账号</a>
+                </p>
+                <i class="pointer"></i>
+            </div>
+            <div class="Favorites commonWidth">
+                <p class="Favorites_container">
+                    <a href="#">我的收藏</a>
+                </p>
+                <i class="pointer"></i>
+            </div>
+
+            <div class="view_soon commonWidth">
+                <p class="view_soon_container">
+                    <a href="#">最近浏览</a>
+                </p>
+                <i class="pointer"></i>
+            </div>
+
+            <div class="order_current commonWidth">
+                <p class="order_current_container">
+                    <a href="#">最近购买</a>
+                </p>
+                <i class="pointer"></i>
+            </div>
+
+            <div class="my_mr inq">
+                <div class="online_inq"></div>
+                <p class="my_mr_container words">
+                    <a href="#">在线问诊</a></p>
+                <i class="pointer words"></i>
+                <div class="online_code code">
+                    <img src="https://res.360kad.com/theme/default/img/rightbar/online_code.png" alt="">
+                    <span>扫码登录后可直接在手机上问诊购药</span>
+                </div>
+                <i class="online_pointer code"></i>
+            </div>
+
+            <div class="my-tsBox commonWidth">
+                <p class="order_current_container">
+                    <a href="#">我要反馈</a>
+                </p>
+                <i class="pointer"></i>
+            </div>
+
+            <div class="my-tsBox commonWidth" style="display:none;">
+                <p class="order_current_container" style="right: 36px; opacity: 1; display: block;">
+                    <a href="#">问卷调查</a>
+                </p>
+                <i class="pointer"></i>
+            </div>
+
+            <div class="sm_two_order commonWidth" style="margin-top: 20px;">
+                <div class="sm_two_order_container">
+                    <img src="http://res2.360kad.com/theme/default/img/product2/new_app_picR1.jpg?v201605" alt="">
+                </div>
+                <i class="pointer"></i>
+            </div>
+            <div class="backUp_top commonWidth"></div>
+        </div>
+
+        <!-- right -->
+        <div class="navi_right">
+            <span class="in-close-right"></span>
+            <div class="login_boxs">
+                <form action="#" method="POST">
+                    <p>登录名：</p>
+                    <p class="p_input">
+                        <input type="text" id="login_user">
+                        <span class="errorTxt"></span>
+                        <i class="error_btn"></i>
+                    </p>
+                    <p>登录密码
+                        <span class="forget_ps">
+                            <a href="#">忘记登录密码？</a>
+                        </span>
+                    </p>
+                    <p class="p_input">
+                        <input type="password" id="login_pwd">
+                        <span class="errorTxt"></span>
+                        <i class="error_btn"></i>
+                    </p>
+                    <p class="p_input2">
+                        <i class="checked_val1 checked_val2"></i>
+                        <span class="checked_Txt">记住我的登录信息</span>
+                    </p>
+                    <p class="sub_btn">
+                        <input type="button" value="登录" id="btn">
+                    </p>
+                    <p class="login-agreement" style="font-size: 12px;margin-bottom: 10px;">登录即代表您已同意
+                        <a href="#">《康爱多隐私政策》</a>
+                    </p>
+                    <p class="kad_more_login">您还可以使用合作网站账号登录康爱多：</p>
+                    <div class="kad_login_style">
+                        <ul>
+                            <li class="login_style_wx">
+                                <a href="#"></a>
+                            </li>
+                            <li class="login_style_QQ">
+                                <a href="#"></a>
+                            </li>
+                            <li class="login_style_zfb">
+                                <a href="#"></a>
+                            </li>
+                            <li class="login_style_wb">
+                                <a href="#"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="pl196">
+                        <a href="../html/register.html">免费注册</a>
+                    </p>
+                </form>
+            </div>
+            <div class="my_Info_isLogin">
+                <p class="my_Info_title">我的账号</p>
+                <div class="my_Info_hy">
+                    <div class="my_Info_hy_ct">
+                        <span><img src="https://res.360kad.com/theme/default/img/2014newKad/kad_user_right01.jpg"
+                                alt="" width="112" height="112"></span>
+                        <span class="my_Info_nihao">您好，请</span>
+                        <span class="my_Info_login_red">
+                            登录
+                        </span>
+                    </div>
+                </div>
+                <div class="my_Info_myself">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i><img src="https://res.360kad.com/theme/default/img/2014newKad/kad_user_right02.png"
+                                        alt=""></i>
+                                <p>我的订单</p>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i><img src="https://res.360kad.com/theme/default/img/2014newKad/kad_user_right03.png"
+                                        alt=""></i>
+                                <p>我的优惠券</p>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i><img src="https://res.360kad.com/theme/default/img/2014newKad/kad_user_right04.png"
+                                        alt=""></i>
+                                <p>我的积分</p>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i><img src="https://res.360kad.com/theme/default/img/2014newKad/kad_user_right05.png"
+                                        alt=""></i>
+                                <p>会员俱乐部</p>
+                            </a>
+
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="lists_show cart">
+                <p class="myCarts">
+                    我的购物车(<span id="myCartNum">0</span>)
+                </p>
+                <div class="without_favor">
+                    <p class="cryKad_icon"></p>
+                    <p>咦，亲购物车还没有添加商品哦！</p>
+                </div>
+                <div class="scrollBar">
+                    <div class="pc_proLists"></div>
+                </div>
+                <div class="go_order_box">
+                    <p class="cart_top">
+                        <span class="total_pros">
+                            <i class="pro_num">0</i>件商品
+                        </span>
+                        <span class="cart_totalPrices">0</span>
+                    </p>
+                    <p class="goShopList">
+                        <a href="http://127.0.0.1/H51913/myProject1/kangaiduo/html/cart.html" class="go_nowOr">去购物车结算</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="lists_show collect">
+                <p class="myCarts">我的收藏</p>
+                <div class="without_favor">
+                    <p class="cryKad_icon"></p>
+                    <p>您还没有收藏东西哦，先去逛逛</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
